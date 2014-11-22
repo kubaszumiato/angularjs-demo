@@ -1,0 +1,36 @@
+<div class="jumbotron">
+    <h1>{{order.numerator}}</h1>
+    
+    <div class="col-md-6">
+        {{order.customer}}
+    </div>
+    <div class="col-md-6">
+        {{order.email}}
+    </div>
+    <p>Elements list</p>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="" ng-click="predicate = 'code'; reverse=!reverse">Code</a>
+        </div>
+        <div class="col-md-4">
+            <a href="" ng-click="predicate = 'name'; reverse=!reverse">Name</a>
+        </div>
+        <div class="col-md-4">
+            <a href="" ng-click="predicate = 'price'; reverse=!reverse">Price</a>
+        </div>
+        <div class="col-md-4">
+            <a href="" ng-click="predicate = 'quantity'; reverse=!reverse">Quantity</a>
+        </div>
+    </div>
+    <div class="row" ng-repeat="element in order.items | orderBy:predicate:reverse">
+        <div class="col-md-4">{{element.code}}</div>
+        <div class="col-md-4">{{element.name}}</div>
+        <div class="col-md-4">{{element.price | curency "PLN " : 0}}</div>
+        <div class="col-md-4">{{element.quantity}}</div>
+    </div>
+    <!--<div class="row">
+        <div style="background-color: green" class="col-md-6 col-md-offset-5">
+            abc
+        </div>
+    </div>-->
+</div>
