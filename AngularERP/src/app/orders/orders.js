@@ -40,10 +40,29 @@ angular.module('ngBoilerplate.orders', [
  */
 .controller('OrdersCtrl', function OrdersCtrl($scope, $http, ordersService) {
 
+<<<<<<< HEAD
     $scope.predicate = '-numerator';
     ordersService.getOrders(function(data) {
         $scope.orders = data;
     });
+=======
+    $scope.orders = [
+        {
+            "numerator": "1a",
+            "value": 25
+        },
+        {
+            "numerator": "2x",
+            "value": 30
+        },
+        {
+            "numerator": "2x",
+            "value": 2
+        }
+    ];
+    $scope.predicate = 'numerator';
+});
+>>>>>>> 262fe97f598793a0be860e383d630bc241f12403
 
 })
 .factory('ordersService', function($http) {

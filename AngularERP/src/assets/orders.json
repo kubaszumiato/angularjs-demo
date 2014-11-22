@@ -1,1605 +1,1240 @@
 [
   {
-    "_id": "5470803960cbfaae594537cd",
+    "_id": "54708e0a19888e36893aa446",
     "index": 0,
-    "guid": "8fe49864-afbd-47cf-9958-0bc658e2400e",
-    "isActive": false,
-    "price": "$2,802.12",
+    "guid": "8f78e82d-43ab-48a0-a44d-18eafd9af9ce",
+    "isActive": true,
+    "value": "$3,400.53",
     "numerator": "2014/COMC/1",
     "referenceNumber": "ExtSys/ 21",
-    "customer": "MAXIMIND",
-    "email": "holmansharpe@maximind.com",
-    "phone": "+48 (988) 401-2965",
-    "address": "709 Louisa Street, Sexton, New Mexico, 8230",
-    "description": "Aute veniam enim velit mollit magna ex culpa pariatur sunt ad. Sit do mollit cupidatat minim sunt esse. Excepteur anim laborum irure ex elit voluptate eu excepteur nisi magna aute enim anim adipisicing. Magna commodo reprehenderit nisi consectetur sunt ex elit esse sunt cupidatat proident exercitation labore est. Quis exercitation officia sint non excepteur ut sint amet laboris deserunt quis. Commodo do consequat magna elit commodo veniam aliqua ipsum adipisicing. Officia nulla sit ut sit nostrud irure eiusmod esse consequat dolor duis.\r\n",
-    "registered": "2014-03-01T17:36:52 -01:00",
-    "latitude": -71.057286,
-    "longitude": 72.088155,
+    "customer": "INFOTRIPS",
+    "email": "holmansharpe@infotrips.com",
+    "phone": "+48 (913) 584-2265",
+    "address": "539 Exeter Street, Waikele, West Virginia, 4047",
+    "description": "Et proident officia ad adipisicing exercitation. Mollit consequat dolore cupidatat reprehenderit. Qui est excepteur proident ex aute mollit irure ipsum nulla non velit culpa labore. Labore qui nulla aliquip laboris sit officia eiusmod Lorem duis. Dolore cupidatat ex pariatur ut. Ipsum veniam eiusmod dolor ullamco consectetur. Reprehenderit ullamco tempor proident id nisi.\r\n",
+    "registered": "2014-02-07T14:44:28 -01:00",
+    "latitude": -46.730452,
+    "longitude": 56.123322,
     "tags": [
+      "pariatur",
       "adipisicing",
+      "irure",
+      "ullamco",
       "dolor",
-      "non",
-      "aliquip",
-      "culpa",
-      "excepteur",
-      "aliquip"
+      "labore",
+      "cillum"
     ],
     "items": [
       {
         "id": 1,
-        "code": "NA-U100",
+        "code": "NA-U10",
         "name": "Article: NA-U50",
-        "price": 893633.13
+        "price": 950661.97,
+        "quantity": 27
       },
       {
         "id": 2,
-        "code": "NA-U20",
-        "name": "Article: NA-U20",
-        "price": 97206.58
-      },
-      {
-        "id": 3,
-        "code": "NA-U90",
-        "name": "Article: NA-U80",
-        "price": 632901.9
-      },
-      {
-        "id": 4,
-        "code": "NA-U40",
-        "name": "Article: NA-U80",
-        "price": 9777.42
-      },
-      {
-        "id": 5,
         "code": "NA-U100",
         "name": "Article: NA-U60",
-        "price": 465795.45
-      },
-      {
-        "id": 6,
-        "code": "NA-U100",
-        "name": "Article: NA-U80",
-        "price": 649801.71
-      },
-      {
-        "id": 7,
-        "code": "NA-U30",
-        "name": "Article: NA-U40",
-        "price": 428403.77
-      },
-      {
-        "id": 8,
-        "code": "NA-U50",
-        "name": "Article: NA-U100",
-        "price": 54596.4
-      },
-      {
-        "id": 9,
-        "code": "NA-U20",
-        "name": "Article: NA-U10",
-        "price": 566062.15
-      },
-      {
-        "id": 10,
-        "code": "NA-U70",
-        "name": "Article: NA-U100",
-        "price": 871102.49
-      },
-      {
-        "id": 11,
-        "code": "NA-U10",
-        "name": "Article: NA-U10",
-        "price": 354935.07
-      }
-    ]
-  },
-  {
-    "_id": "547080396bf3972cd9c13fa3",
-    "index": 1,
-    "guid": "9c5be02f-1074-4904-b393-8f01edaf227e",
-    "isActive": false,
-    "price": "$1,943.10",
-    "numerator": "2014/COMC/2",
-    "referenceNumber": "ExtSys/ 22",
-    "customer": "ZINCA",
-    "email": "holmansharpe@zinca.com",
-    "phone": "+48 (913) 419-3537",
-    "address": "886 Garland Court, Shrewsbury, Pennsylvania, 5105",
-    "description": "Ullamco id Lorem tempor aliquip amet adipisicing consectetur culpa dolore laboris in ut. Laborum occaecat consequat ea tempor Lorem nulla eu. Aute nostrud id magna elit duis qui et aute Lorem elit aliqua tempor cillum.\r\n",
-    "registered": "2014-05-17T23:34:30 -02:00",
-    "latitude": 24.312714,
-    "longitude": 37.784573,
-    "tags": [
-      "incididunt",
-      "qui",
-      "adipisicing",
-      "eu",
-      "eiusmod",
-      "consequat",
-      "ullamco"
-    ],
-    "items": [
-      {
-        "id": 1,
-        "code": "NA-U100",
-        "name": "Article: NA-U100",
-        "price": 712046.36
-      },
-      {
-        "id": 2,
-        "code": "NA-U50",
-        "name": "Article: NA-U40",
-        "price": 94069.32
+        "price": 529210.1,
+        "quantity": 24
       },
       {
         "id": 3,
-        "code": "NA-U60",
-        "name": "Article: NA-U40",
-        "price": 870491.16
+        "code": "NA-U40",
+        "name": "Article: NA-U10",
+        "price": 591591.16,
+        "quantity": 30
       },
       {
         "id": 4,
-        "code": "NA-U60",
-        "name": "Article: NA-U20",
-        "price": 49999.43
+        "code": "NA-U90",
+        "name": "Article: NA-U60",
+        "price": 36354.37,
+        "quantity": 24
       },
       {
         "id": 5,
-        "code": "NA-U30",
-        "name": "Article: NA-U100",
-        "price": 155756.22
+        "code": "NA-U50",
+        "name": "Article: NA-U90",
+        "price": 54906.56,
+        "quantity": 24
       },
       {
         "id": 6,
-        "code": "NA-U100",
-        "name": "Article: NA-U70",
-        "price": 624991.02
+        "code": "NA-U10",
+        "name": "Article: NA-U100",
+        "price": 917371.85,
+        "quantity": 27
       },
       {
         "id": 7,
-        "code": "NA-U60",
-        "name": "Article: NA-U30",
-        "price": 187491.91
+        "code": "NA-U90",
+        "name": "Article: NA-U60",
+        "price": 977813.73,
+        "quantity": 8
       },
       {
         "id": 8,
-        "code": "NA-U60",
-        "name": "Article: NA-U20",
-        "price": 876480.35
+        "code": "NA-U90",
+        "name": "Article: NA-U60",
+        "price": 55122.46,
+        "quantity": 11
       },
       {
         "id": 9,
-        "code": "NA-U50",
-        "name": "Article: NA-U10",
-        "price": 681128.7
+        "code": "NA-U10",
+        "name": "Article: NA-U80",
+        "price": 846436.16,
+        "quantity": 30
       },
       {
         "id": 10,
-        "code": "NA-U30",
-        "name": "Article: NA-U50",
-        "price": 312157.52
+        "code": "NA-U20",
+        "name": "Article: NA-U100",
+        "price": 340089.37,
+        "quantity": 13
       },
       {
         "id": 11,
-        "code": "NA-U70",
-        "name": "Article: NA-U40",
-        "price": 53674.93
+        "code": "NA-U40",
+        "name": "Article: NA-U90",
+        "price": 852774.3,
+        "quantity": 25
       },
       {
         "id": 12,
-        "code": "NA-U10",
-        "name": "Article: NA-U80",
-        "price": 853697.85
+        "code": "NA-U60",
+        "name": "Article: NA-U70",
+        "price": 406849.77,
+        "quantity": 27
       },
       {
         "id": 13,
-        "code": "NA-U70",
-        "name": "Article: NA-U30",
-        "price": 700468.71
+        "code": "NA-U80",
+        "name": "Article: NA-U100",
+        "price": 62549.41,
+        "quantity": 22
       },
       {
         "id": 14,
-        "code": "NA-U30",
-        "name": "Article: NA-U100",
-        "price": 41788.51
+        "code": "NA-U90",
+        "name": "Article: NA-U50",
+        "price": 656215.74,
+        "quantity": 5
       },
       {
         "id": 15,
-        "code": "NA-U70",
-        "name": "Article: NA-U80",
-        "price": 23182.45
+        "code": "NA-U50",
+        "name": "Article: NA-U90",
+        "price": 655627.7,
+        "quantity": 11
       },
       {
         "id": 16,
-        "code": "NA-U90",
-        "name": "Article: NA-U50",
-        "price": 409284.58
+        "code": "NA-U70",
+        "name": "Article: NA-U90",
+        "price": 654990.34,
+        "quantity": 7
+      },
+      {
+        "id": 17,
+        "code": "NA-U80",
+        "name": "Article: NA-U10",
+        "price": 933219.86,
+        "quantity": 10
       }
     ]
   },
   {
-    "_id": "54708039320d6916725bf89d",
-    "index": 2,
-    "guid": "224bd47b-0ce0-4779-a567-03c3c613d614",
-    "isActive": false,
-    "price": "$2,517.01",
-    "numerator": "2014/COMC/3",
-    "referenceNumber": "ExtSys/ 23",
-    "customer": "MAGMINA",
-    "email": "holmansharpe@magmina.com",
-    "phone": "+48 (873) 526-3031",
-    "address": "708 Cox Place, Loma, Vermont, 994",
-    "description": "Aliquip velit quis pariatur do mollit aliquip consectetur non exercitation reprehenderit sit cupidatat. Commodo sint aliquip in in sint in in dolore non. Laboris anim non sint velit duis. Lorem sunt voluptate ea non id. Anim excepteur cupidatat proident consequat consequat ea ipsum velit incididunt excepteur ad incididunt ipsum. Do pariatur laborum quis magna sint officia aute.\r\n",
-    "registered": "2014-08-16T23:54:32 -02:00",
-    "latitude": 72.080484,
-    "longitude": -47.107234,
+    "_id": "54708e0afbb9b65c330bd2b0",
+    "index": 1,
+    "guid": "7ea34ea5-f75e-4b13-a89f-6077d4be9c00",
+    "isActive": true,
+    "value": "$1,519.44",
+    "numerator": "2014/COMC/2",
+    "referenceNumber": "ExtSys/ 22",
+    "customer": "OPTICOM",
+    "email": "holmansharpe@opticom.com",
+    "phone": "+48 (964) 413-3127",
+    "address": "593 Moore Place, Eastvale, Marshall Islands, 5589",
+    "description": "Consectetur exercitation excepteur veniam non quis cillum sit qui est mollit do dolore. Eiusmod est ut et duis quis esse ut ut ipsum et nisi dolor ut. Velit ullamco elit ut id ut pariatur ullamco et ut sunt mollit reprehenderit. Labore sit Lorem occaecat deserunt amet sunt et consequat adipisicing magna magna. Lorem ut amet ex voluptate magna nulla duis occaecat consectetur tempor commodo. Culpa tempor officia et pariatur commodo sit nulla consequat id velit id consectetur commodo duis.\r\n",
+    "registered": "2014-04-17T16:55:24 -02:00",
+    "latitude": 44.965831,
+    "longitude": -151.209424,
     "tags": [
-      "dolore",
-      "est",
-      "id",
+      "amet",
+      "do",
+      "officia",
+      "in",
+      "magna",
       "sint",
-      "quis",
-      "non",
       "aliqua"
     ],
     "items": [
       {
         "id": 1,
-        "code": "NA-U60",
+        "code": "NA-U80",
         "name": "Article: NA-U90",
-        "price": 289515.19
+        "price": 455642.64,
+        "quantity": 20
       },
       {
         "id": 2,
-        "code": "NA-U30",
-        "name": "Article: NA-U40",
-        "price": 974499.58
+        "code": "NA-U50",
+        "name": "Article: NA-U50",
+        "price": 190743.22,
+        "quantity": 8
       },
       {
         "id": 3,
-        "code": "NA-U50",
-        "name": "Article: NA-U70",
-        "price": 43018.28
+        "code": "NA-U30",
+        "name": "Article: NA-U10",
+        "price": 236070.2,
+        "quantity": 14
       },
       {
         "id": 4,
-        "code": "NA-U20",
-        "name": "Article: NA-U100",
-        "price": 777883.65
+        "code": "NA-U70",
+        "name": "Article: NA-U20",
+        "price": 106180.76,
+        "quantity": 19
       },
       {
         "id": 5,
-        "code": "NA-U40",
-        "name": "Article: NA-U80",
-        "price": 142281.53
+        "code": "NA-U50",
+        "name": "Article: NA-U100",
+        "price": 392316.71,
+        "quantity": 15
       },
       {
         "id": 6,
-        "code": "NA-U60",
-        "name": "Article: NA-U80",
-        "price": 581296.15
+        "code": "NA-U90",
+        "name": "Article: NA-U50",
+        "price": 972618.86,
+        "quantity": 22
       },
       {
         "id": 7,
         "code": "NA-U60",
-        "name": "Article: NA-U40",
-        "price": 698932.73
+        "name": "Article: NA-U80",
+        "price": 923932.01,
+        "quantity": 21
       },
       {
         "id": 8,
-        "code": "NA-U90",
+        "code": "NA-U50",
         "name": "Article: NA-U100",
-        "price": 792957.01
+        "price": 383776.49,
+        "quantity": 20
       },
       {
         "id": 9,
-        "code": "NA-U50",
-        "name": "Article: NA-U40",
-        "price": 297482.7
+        "code": "NA-U20",
+        "name": "Article: NA-U80",
+        "price": 448486.46,
+        "quantity": 18
       },
       {
         "id": 10,
-        "code": "NA-U60",
-        "name": "Article: NA-U20",
-        "price": 967905.96
+        "code": "NA-U10",
+        "name": "Article: NA-U50",
+        "price": 580001.2,
+        "quantity": 6
       },
       {
         "id": 11,
-        "code": "NA-U60",
+        "code": "NA-U70",
         "name": "Article: NA-U40",
-        "price": 756510.61
-      },
-      {
-        "id": 12,
-        "code": "NA-U50",
-        "name": "Article: NA-U60",
-        "price": 717363.3
-      },
-      {
-        "id": 13,
-        "code": "NA-U90",
-        "name": "Article: NA-U100",
-        "price": 878556.33
-      },
-      {
-        "id": 14,
-        "code": "NA-U80",
-        "name": "Article: NA-U60",
-        "price": 958399.11
+        "price": 971344.77,
+        "quantity": 27
       }
     ]
   },
   {
-    "_id": "54708039e84e9ea8f226eb11",
-    "index": 3,
-    "guid": "70676d82-d833-4d6a-9e1e-84e57716cfa5",
+    "_id": "54708e0a9a4d65708b3430eb",
+    "index": 2,
+    "guid": "f2a47231-5a90-40b4-874a-3ad7e8007474",
     "isActive": true,
-    "price": "$2,722.95",
+    "value": "$3,413.78",
+    "numerator": "2014/COMC/3",
+    "referenceNumber": "ExtSys/ 23",
+    "customer": "IMANT",
+    "email": "holmansharpe@imant.com",
+    "phone": "+48 (982) 581-3367",
+    "address": "681 Aitken Place, Outlook, South Dakota, 8872",
+    "description": "Fugiat aliqua irure cillum non occaecat. Ad sunt aliqua aliquip laboris ad proident excepteur aliqua cillum velit et proident aliquip eu. Amet est reprehenderit occaecat excepteur tempor ullamco magna adipisicing. Velit esse duis sunt ex irure eu cillum mollit eiusmod deserunt commodo ex. Incididunt in amet non ut ea id aute ipsum officia laboris. Dolore id do fugiat laboris duis aute. Nisi ipsum cupidatat reprehenderit et mollit et sit magna aliquip ad est aliqua consectetur.\r\n",
+    "registered": "2014-01-03T10:01:34 -01:00",
+    "latitude": 68.648994,
+    "longitude": -64.514931,
+    "tags": [
+      "occaecat",
+      "deserunt",
+      "anim",
+      "dolore",
+      "laborum",
+      "sint",
+      "qui"
+    ],
+    "items": [
+      {
+        "id": 1,
+        "code": "NA-U20",
+        "name": "Article: NA-U30",
+        "price": 984056.37,
+        "quantity": 28
+      },
+      {
+        "id": 2,
+        "code": "NA-U40",
+        "name": "Article: NA-U10",
+        "price": 77281.73,
+        "quantity": 14
+      },
+      {
+        "id": 3,
+        "code": "NA-U60",
+        "name": "Article: NA-U10",
+        "price": 696574.01,
+        "quantity": 21
+      },
+      {
+        "id": 4,
+        "code": "NA-U90",
+        "name": "Article: NA-U60",
+        "price": 308537.81,
+        "quantity": 13
+      },
+      {
+        "id": 5,
+        "code": "NA-U20",
+        "name": "Article: NA-U30",
+        "price": 418742.14,
+        "quantity": 8
+      },
+      {
+        "id": 6,
+        "code": "NA-U100",
+        "name": "Article: NA-U40",
+        "price": 14046.71,
+        "quantity": 16
+      },
+      {
+        "id": 7,
+        "code": "NA-U100",
+        "name": "Article: NA-U60",
+        "price": 119255.62,
+        "quantity": 10
+      },
+      {
+        "id": 8,
+        "code": "NA-U30",
+        "name": "Article: NA-U90",
+        "price": 597519.13,
+        "quantity": 27
+      },
+      {
+        "id": 9,
+        "code": "NA-U80",
+        "name": "Article: NA-U10",
+        "price": 178326.56,
+        "quantity": 25
+      },
+      {
+        "id": 10,
+        "code": "NA-U90",
+        "name": "Article: NA-U80",
+        "price": 772421.22,
+        "quantity": 30
+      },
+      {
+        "id": 11,
+        "code": "NA-U50",
+        "name": "Article: NA-U60",
+        "price": 953515.55,
+        "quantity": 6
+      },
+      {
+        "id": 12,
+        "code": "NA-U60",
+        "name": "Article: NA-U60",
+        "price": 212297.63,
+        "quantity": 5
+      },
+      {
+        "id": 13,
+        "code": "NA-U60",
+        "name": "Article: NA-U80",
+        "price": 982892.28,
+        "quantity": 14
+      }
+    ]
+  },
+  {
+    "_id": "54708e0a11e73bba7b0a47ec",
+    "index": 3,
+    "guid": "79408cc3-5071-4544-9cc4-c2bffa8789ab",
+    "isActive": false,
+    "value": "$1,118.86",
     "numerator": "2014/COMC/4",
     "referenceNumber": "ExtSys/ 24",
-    "customer": "ZENTIA",
-    "email": "holmansharpe@zentia.com",
-    "phone": "+48 (902) 564-3270",
-    "address": "887 India Street, Hilltop, Missouri, 8202",
-    "description": "Consectetur id sint sit do voluptate ullamco nulla ut duis ipsum dolor esse. Id irure minim sit aute et laborum velit excepteur eu aliquip excepteur proident ad. Ad ullamco velit ullamco laboris qui occaecat est nisi.\r\n",
-    "registered": "2014-08-11T22:19:36 -02:00",
-    "latitude": -79.697828,
-    "longitude": -33.266493,
+    "customer": "DIGIPRINT",
+    "email": "holmansharpe@digiprint.com",
+    "phone": "+48 (907) 587-2339",
+    "address": "330 Hill Street, Kula, Utah, 8315",
+    "description": "Nulla incididunt in dolore occaecat excepteur irure aliquip excepteur non mollit consequat. Ex qui sint est elit eu esse consequat velit mollit ex eu esse occaecat. Elit amet duis occaecat ut ullamco culpa et Lorem eiusmod ut non consectetur.\r\n",
+    "registered": "2014-08-13T20:36:13 -02:00",
+    "latitude": -50.367783,
+    "longitude": 125.314088,
     "tags": [
-      "qui",
-      "ut",
-      "exercitation",
-      "irure",
-      "nulla",
-      "ex",
-      "fugiat"
-    ],
-    "items": [
-      {
-        "id": 1,
-        "code": "NA-U90",
-        "name": "Article: NA-U10",
-        "price": 731848.22
-      },
-      {
-        "id": 2,
-        "code": "NA-U60",
-        "name": "Article: NA-U60",
-        "price": 652783.87
-      },
-      {
-        "id": 3,
-        "code": "NA-U90",
-        "name": "Article: NA-U100",
-        "price": 444638.84
-      },
-      {
-        "id": 4,
-        "code": "NA-U20",
-        "name": "Article: NA-U90",
-        "price": 180636.04
-      },
-      {
-        "id": 5,
-        "code": "NA-U20",
-        "name": "Article: NA-U10",
-        "price": 262881.18
-      },
-      {
-        "id": 6,
-        "code": "NA-U20",
-        "name": "Article: NA-U50",
-        "price": 181063.72
-      },
-      {
-        "id": 7,
-        "code": "NA-U90",
-        "name": "Article: NA-U30",
-        "price": 557715.04
-      },
-      {
-        "id": 8,
-        "code": "NA-U100",
-        "name": "Article: NA-U70",
-        "price": 67917.17
-      },
-      {
-        "id": 9,
-        "code": "NA-U40",
-        "name": "Article: NA-U80",
-        "price": 609492.77
-      },
-      {
-        "id": 10,
-        "code": "NA-U30",
-        "name": "Article: NA-U30",
-        "price": 777809.95
-      },
-      {
-        "id": 11,
-        "code": "NA-U60",
-        "name": "Article: NA-U100",
-        "price": 260333.52
-      },
-      {
-        "id": 12,
-        "code": "NA-U80",
-        "name": "Article: NA-U30",
-        "price": 253117.45
-      }
-    ]
-  },
-  {
-    "_id": "547080398924f24ec6ed20eb",
-    "index": 4,
-    "guid": "594793dd-0926-4d0f-a84e-8e837ed815ac",
-    "isActive": true,
-    "price": "$2,614.20",
-    "numerator": "2014/COMC/5",
-    "referenceNumber": "ExtSys/ 25",
-    "customer": "MOLTONIC",
-    "email": "holmansharpe@moltonic.com",
-    "phone": "+48 (856) 581-2874",
-    "address": "525 Adler Place, Strong, South Carolina, 1513",
-    "description": "Excepteur officia occaecat velit do. Adipisicing proident nulla cillum id dolor pariatur dolore officia. Est laboris est sint exercitation nostrud. Elit consequat mollit reprehenderit consectetur ut. Esse minim sint ex voluptate aliquip voluptate ea irure deserunt nulla exercitation sit amet nisi. Eiusmod sunt amet tempor ex ea deserunt ut non.\r\n",
-    "registered": "2014-02-06T01:03:29 -01:00",
-    "latitude": -57.911587,
-    "longitude": 132.908908,
-    "tags": [
-      "ut",
-      "aliqua",
-      "occaecat",
-      "cupidatat",
-      "Lorem",
-      "sunt",
-      "amet"
+      "anim",
+      "est",
+      "ea",
+      "minim",
+      "culpa",
+      "excepteur",
+      "nostrud"
     ],
     "items": [
       {
         "id": 1,
         "code": "NA-U50",
-        "name": "Article: NA-U30",
-        "price": 783557.95
+        "name": "Article: NA-U60",
+        "price": 510899.02,
+        "quantity": 30
       },
       {
         "id": 2,
-        "code": "NA-U30",
-        "name": "Article: NA-U70",
-        "price": 55344.01
+        "code": "NA-U60",
+        "name": "Article: NA-U60",
+        "price": 797401.41,
+        "quantity": 24
       },
       {
         "id": 3,
+        "code": "NA-U100",
+        "name": "Article: NA-U40",
+        "price": 466828.69,
+        "quantity": 24
+      },
+      {
+        "id": 4,
+        "code": "NA-U60",
+        "name": "Article: NA-U70",
+        "price": 485881.83,
+        "quantity": 26
+      },
+      {
+        "id": 5,
+        "code": "NA-U10",
+        "name": "Article: NA-U100",
+        "price": 51474.05,
+        "quantity": 13
+      },
+      {
+        "id": 6,
+        "code": "NA-U30",
+        "name": "Article: NA-U50",
+        "price": 221049.23,
+        "quantity": 7
+      },
+      {
+        "id": 7,
+        "code": "NA-U10",
+        "name": "Article: NA-U90",
+        "price": 218112.99,
+        "quantity": 5
+      },
+      {
+        "id": 8,
+        "code": "NA-U30",
+        "name": "Article: NA-U20",
+        "price": 88100.2,
+        "quantity": 11
+      },
+      {
+        "id": 9,
         "code": "NA-U10",
         "name": "Article: NA-U20",
-        "price": 975127.57
-      },
-      {
-        "id": 4,
-        "code": "NA-U20",
-        "name": "Article: NA-U100",
-        "price": 94577.6
-      },
-      {
-        "id": 5,
-        "code": "NA-U100",
-        "name": "Article: NA-U30",
-        "price": 680769.87
-      },
-      {
-        "id": 6,
-        "code": "NA-U40",
-        "name": "Article: NA-U30",
-        "price": 377436.31
-      },
-      {
-        "id": 7,
-        "code": "NA-U60",
-        "name": "Article: NA-U10",
-        "price": 94245.06
-      },
-      {
-        "id": 8,
-        "code": "NA-U60",
-        "name": "Article: NA-U60",
-        "price": 496055.75
-      },
-      {
-        "id": 9,
-        "code": "NA-U60",
-        "name": "Article: NA-U20",
-        "price": 551323.15
+        "price": 236625.33,
+        "quantity": 6
       },
       {
         "id": 10,
-        "code": "NA-U40",
+        "code": "NA-U60",
         "name": "Article: NA-U90",
-        "price": 251543.01
+        "price": 396148.99,
+        "quantity": 29
       },
       {
         "id": 11,
-        "code": "NA-U50",
-        "name": "Article: NA-U100",
-        "price": 146486.24
+        "code": "NA-U80",
+        "name": "Article: NA-U50",
+        "price": 410143.04,
+        "quantity": 30
       },
       {
         "id": 12,
-        "code": "NA-U40",
-        "name": "Article: NA-U80",
-        "price": 536822.2
+        "code": "NA-U70",
+        "name": "Article: NA-U70",
+        "price": 783947.41,
+        "quantity": 22
       },
       {
         "id": 13,
-        "code": "NA-U100",
+        "code": "NA-U70",
         "name": "Article: NA-U50",
-        "price": 707155.61
+        "price": 116685.83,
+        "quantity": 22
       },
       {
         "id": 14,
-        "code": "NA-U60",
-        "name": "Article: NA-U30",
-        "price": 42803.6
+        "code": "NA-U30",
+        "name": "Article: NA-U20",
+        "price": 144844.42,
+        "quantity": 28
       },
       {
         "id": 15,
-        "code": "NA-U100",
-        "name": "Article: NA-U70",
-        "price": 170770.49
+        "code": "NA-U90",
+        "name": "Article: NA-U80",
+        "price": 7415.05,
+        "quantity": 26
       },
       {
         "id": 16,
+        "code": "NA-U90",
+        "name": "Article: NA-U30",
+        "price": 902867.67,
+        "quantity": 23
+      }
+    ]
+  },
+  {
+    "_id": "54708e0a51ae90b174352247",
+    "index": 4,
+    "guid": "5a5ed1df-07e4-4ba4-b348-658a93713727",
+    "isActive": false,
+    "value": "$2,559.16",
+    "numerator": "2014/COMC/5",
+    "referenceNumber": "ExtSys/ 25",
+    "customer": "ZOSIS",
+    "email": "holmansharpe@zosis.com",
+    "phone": "+48 (806) 473-2987",
+    "address": "712 Bulwer Place, Beaulieu, South Carolina, 7929",
+    "description": "Commodo cupidatat dolor elit ullamco. Eiusmod et proident duis eu aliquip adipisicing minim. Irure aliqua velit dolore ea.\r\n",
+    "registered": "2014-03-26T02:21:49 -01:00",
+    "latitude": -20.941054,
+    "longitude": -16.903056,
+    "tags": [
+      "occaecat",
+      "veniam",
+      "adipisicing",
+      "dolor",
+      "Lorem",
+      "labore",
+      "dolor"
+    ],
+    "items": [
+      {
+        "id": 1,
+        "code": "NA-U20",
+        "name": "Article: NA-U30",
+        "price": 961338.27,
+        "quantity": 11
+      },
+      {
+        "id": 2,
+        "code": "NA-U30",
+        "name": "Article: NA-U50",
+        "price": 920103.06,
+        "quantity": 21
+      },
+      {
+        "id": 3,
+        "code": "NA-U90",
+        "name": "Article: NA-U90",
+        "price": 389306.62,
+        "quantity": 17
+      },
+      {
+        "id": 4,
+        "code": "NA-U50",
+        "name": "Article: NA-U90",
+        "price": 296285.85,
+        "quantity": 21
+      },
+      {
+        "id": 5,
+        "code": "NA-U60",
+        "name": "Article: NA-U40",
+        "price": 479037.21,
+        "quantity": 12
+      },
+      {
+        "id": 6,
+        "code": "NA-U90",
+        "name": "Article: NA-U50",
+        "price": 721819.11,
+        "quantity": 21
+      },
+      {
+        "id": 7,
+        "code": "NA-U40",
+        "name": "Article: NA-U70",
+        "price": 911730.22,
+        "quantity": 15
+      },
+      {
+        "id": 8,
+        "code": "NA-U80",
+        "name": "Article: NA-U70",
+        "price": 518380.24,
+        "quantity": 30
+      },
+      {
+        "id": 9,
+        "code": "NA-U70",
+        "name": "Article: NA-U80",
+        "price": 885115.84,
+        "quantity": 23
+      },
+      {
+        "id": 10,
+        "code": "NA-U60",
+        "name": "Article: NA-U80",
+        "price": 745172.26,
+        "quantity": 8
+      },
+      {
+        "id": 11,
+        "code": "NA-U60",
+        "name": "Article: NA-U30",
+        "price": 169591.99,
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "_id": "54708e0ac41340688a76420e",
+    "index": 5,
+    "guid": "8473d594-2fc2-4b33-963d-0fbb0ad2d50f",
+    "isActive": false,
+    "value": "$3,195.19",
+    "numerator": "2014/COMC/6",
+    "referenceNumber": "ExtSys/ 26",
+    "customer": "ACCRUEX",
+    "email": "holmansharpe@accruex.com",
+    "phone": "+48 (988) 533-3622",
+    "address": "701 Fuller Place, Sisquoc, Louisiana, 5041",
+    "description": "Sit cillum anim laboris mollit aliqua dolore aliquip cillum ipsum consectetur culpa eiusmod. Et deserunt minim ullamco est est consequat non in Lorem Lorem deserunt veniam. Nisi mollit est nostrud occaecat deserunt dolore labore labore quis consequat labore. Nulla elit mollit laborum irure aliqua irure aute consectetur duis cupidatat. Do consequat veniam laboris cupidatat occaecat officia consectetur laborum. Id cupidatat eiusmod excepteur culpa et magna mollit magna aute.\r\n",
+    "registered": "2014-03-09T01:33:54 -01:00",
+    "latitude": 8.724435,
+    "longitude": -79.175787,
+    "tags": [
+      "amet",
+      "sit",
+      "in",
+      "officia",
+      "eiusmod",
+      "consequat",
+      "occaecat"
+    ],
+    "items": [
+      {
+        "id": 1,
+        "code": "NA-U70",
+        "name": "Article: NA-U90",
+        "price": 518513.32,
+        "quantity": 13
+      },
+      {
+        "id": 2,
         "code": "NA-U100",
+        "name": "Article: NA-U40",
+        "price": 812539.64,
+        "quantity": 7
+      },
+      {
+        "id": 3,
+        "code": "NA-U100",
+        "name": "Article: NA-U90",
+        "price": 103617.4,
+        "quantity": 9
+      },
+      {
+        "id": 4,
+        "code": "NA-U20",
+        "name": "Article: NA-U40",
+        "price": 246202.1,
+        "quantity": 16
+      },
+      {
+        "id": 5,
+        "code": "NA-U30",
+        "name": "Article: NA-U90",
+        "price": 28216.02,
+        "quantity": 13
+      },
+      {
+        "id": 6,
+        "code": "NA-U50",
+        "name": "Article: NA-U20",
+        "price": 265721.79,
+        "quantity": 11
+      },
+      {
+        "id": 7,
+        "code": "NA-U50",
+        "name": "Article: NA-U50",
+        "price": 98495.27,
+        "quantity": 22
+      },
+      {
+        "id": 8,
+        "code": "NA-U10",
+        "name": "Article: NA-U80",
+        "price": 254704.88,
+        "quantity": 14
+      },
+      {
+        "id": 9,
+        "code": "NA-U10",
+        "name": "Article: NA-U100",
+        "price": 479124.09,
+        "quantity": 26
+      },
+      {
+        "id": 10,
+        "code": "NA-U100",
+        "name": "Article: NA-U20",
+        "price": 432088.05,
+        "quantity": 14
+      },
+      {
+        "id": 11,
+        "code": "NA-U60",
         "name": "Article: NA-U60",
-        "price": 480881.71
+        "price": 383750.33,
+        "quantity": 6
+      },
+      {
+        "id": 12,
+        "code": "NA-U20",
+        "name": "Article: NA-U50",
+        "price": 236104.25,
+        "quantity": 25
+      },
+      {
+        "id": 13,
+        "code": "NA-U90",
+        "name": "Article: NA-U90",
+        "price": 971703.92,
+        "quantity": 15
+      },
+      {
+        "id": 14,
+        "code": "NA-U40",
+        "name": "Article: NA-U60",
+        "price": 847053.36,
+        "quantity": 18
+      },
+      {
+        "id": 15,
+        "code": "NA-U90",
+        "name": "Article: NA-U20",
+        "price": 792227.56,
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "_id": "54708e0a88d418f8368c1804",
+    "index": 6,
+    "guid": "72649d16-588d-4dce-ad32-b27c5376b491",
+    "isActive": true,
+    "value": "$2,719.83",
+    "numerator": "2014/COMC/7",
+    "referenceNumber": "ExtSys/ 27",
+    "customer": "BLUEGRAIN",
+    "email": "holmansharpe@bluegrain.com",
+    "phone": "+48 (859) 440-3514",
+    "address": "260 Ashford Street, Bath, Virginia, 7818",
+    "description": "Dolor irure ex mollit adipisicing ad qui consequat do tempor elit elit qui. Laborum labore cillum culpa dolor duis consequat aute qui sunt. Ad ea Lorem cupidatat consectetur tempor et fugiat minim consequat.\r\n",
+    "registered": "2014-09-18T03:47:58 -02:00",
+    "latitude": -45.816298,
+    "longitude": 14.303045,
+    "tags": [
+      "ad",
+      "irure",
+      "voluptate",
+      "in",
+      "consectetur",
+      "laborum",
+      "magna"
+    ],
+    "items": [
+      {
+        "id": 1,
+        "code": "NA-U70",
+        "name": "Article: NA-U20",
+        "price": 952468.13,
+        "quantity": 14
+      },
+      {
+        "id": 2,
+        "code": "NA-U40",
+        "name": "Article: NA-U60",
+        "price": 868003.06,
+        "quantity": 21
+      },
+      {
+        "id": 3,
+        "code": "NA-U90",
+        "name": "Article: NA-U90",
+        "price": 15346.37,
+        "quantity": 26
+      },
+      {
+        "id": 4,
+        "code": "NA-U30",
+        "name": "Article: NA-U30",
+        "price": 611815.72,
+        "quantity": 10
+      },
+      {
+        "id": 5,
+        "code": "NA-U30",
+        "name": "Article: NA-U10",
+        "price": 676986.91,
+        "quantity": 9
+      },
+      {
+        "id": 6,
+        "code": "NA-U40",
+        "name": "Article: NA-U60",
+        "price": 751198.34,
+        "quantity": 17
+      },
+      {
+        "id": 7,
+        "code": "NA-U50",
+        "name": "Article: NA-U20",
+        "price": 466501.87,
+        "quantity": 23
+      },
+      {
+        "id": 8,
+        "code": "NA-U50",
+        "name": "Article: NA-U90",
+        "price": 213009.75,
+        "quantity": 19
+      },
+      {
+        "id": 9,
+        "code": "NA-U100",
+        "name": "Article: NA-U80",
+        "price": 809339.6,
+        "quantity": 16
+      },
+      {
+        "id": 10,
+        "code": "NA-U40",
+        "name": "Article: NA-U40",
+        "price": 253173.45,
+        "quantity": 10
+      },
+      {
+        "id": 11,
+        "code": "NA-U70",
+        "name": "Article: NA-U30",
+        "price": 590824.12,
+        "quantity": 8
+      },
+      {
+        "id": 12,
+        "code": "NA-U100",
+        "name": "Article: NA-U40",
+        "price": 543141.22,
+        "quantity": 6
+      },
+      {
+        "id": 13,
+        "code": "NA-U40",
+        "name": "Article: NA-U90",
+        "price": 771091.67,
+        "quantity": 6
+      },
+      {
+        "id": 14,
+        "code": "NA-U50",
+        "name": "Article: NA-U10",
+        "price": 231913.5,
+        "quantity": 6
+      },
+      {
+        "id": 15,
+        "code": "NA-U30",
+        "name": "Article: NA-U40",
+        "price": 319868.89,
+        "quantity": 7
+      },
+      {
+        "id": 16,
+        "code": "NA-U20",
+        "name": "Article: NA-U40",
+        "price": 644311.93,
+        "quantity": 20
       },
       {
         "id": 17,
         "code": "NA-U60",
-        "name": "Article: NA-U70",
-        "price": 547670.14
+        "name": "Article: NA-U80",
+        "price": 468038.37,
+        "quantity": 11
       },
       {
         "id": 18,
-        "code": "NA-U100",
-        "name": "Article: NA-U70",
-        "price": 257215.69
-      },
-      {
-        "id": 19,
-        "code": "NA-U40",
-        "name": "Article: NA-U30",
-        "price": 832786.09
-      },
-      {
-        "id": 20,
-        "code": "NA-U90",
-        "name": "Article: NA-U30",
-        "price": 391436.12
-      }
-    ]
-  },
-  {
-    "_id": "54708039623b7c584cd645d7",
-    "index": 5,
-    "guid": "b1bda1cb-3c6d-4f8b-a2da-a76e26cfa1b0",
-    "isActive": true,
-    "price": "$3,442.32",
-    "numerator": "2014/COMC/6",
-    "referenceNumber": "ExtSys/ 26",
-    "customer": "COMCUBINE",
-    "email": "holmansharpe@comcubine.com",
-    "phone": "+48 (923) 504-2393",
-    "address": "560 Sullivan Place, Comptche, Nebraska, 8323",
-    "description": "Proident occaecat reprehenderit ipsum ad velit et officia esse aliqua quis. Excepteur ea consequat nostrud sit tempor elit. Cillum quis eu nulla officia reprehenderit adipisicing ullamco esse cupidatat elit. Anim id amet amet irure duis nisi occaecat eu magna proident sunt enim reprehenderit. Occaecat consequat velit elit cupidatat adipisicing est et sint duis ex. Qui mollit proident eiusmod mollit. Ipsum veniam nisi cillum sint consequat minim mollit sit duis nisi commodo ea qui exercitation.\r\n",
-    "registered": "2014-05-27T13:15:19 -02:00",
-    "latitude": 31.335001,
-    "longitude": -19.196284,
-    "tags": [
-      "amet",
-      "dolore",
-      "cillum",
-      "minim",
-      "eu",
-      "sint",
-      "excepteur"
-    ],
-    "items": [
-      {
-        "id": 1,
-        "code": "NA-U100",
-        "name": "Article: NA-U20",
-        "price": 447373.88
-      },
-      {
-        "id": 2,
-        "code": "NA-U40",
-        "name": "Article: NA-U60",
-        "price": 950109.77
-      },
-      {
-        "id": 3,
-        "code": "NA-U70",
-        "name": "Article: NA-U40",
-        "price": 105498.35
-      },
-      {
-        "id": 4,
-        "code": "NA-U50",
-        "name": "Article: NA-U10",
-        "price": 208386.63
-      },
-      {
-        "id": 5,
-        "code": "NA-U90",
-        "name": "Article: NA-U50",
-        "price": 221164.13
-      },
-      {
-        "id": 6,
-        "code": "NA-U50",
-        "name": "Article: NA-U60",
-        "price": 601972.85
-      },
-      {
-        "id": 7,
-        "code": "NA-U50",
-        "name": "Article: NA-U100",
-        "price": 887766.27
-      },
-      {
-        "id": 8,
-        "code": "NA-U20",
-        "name": "Article: NA-U20",
-        "price": 286060.79
-      },
-      {
-        "id": 9,
         "code": "NA-U80",
-        "name": "Article: NA-U30",
-        "price": 525980.64
-      },
-      {
-        "id": 10,
-        "code": "NA-U50",
-        "name": "Article: NA-U30",
-        "price": 521101.67
-      }
-    ]
-  },
-  {
-    "_id": "54708039b1d0880b0c806d46",
-    "index": 6,
-    "guid": "5a634725-ceb6-461d-aab2-e689ea3c5cc0",
-    "isActive": false,
-    "price": "$2,428.33",
-    "numerator": "2014/COMC/7",
-    "referenceNumber": "ExtSys/ 27",
-    "customer": "KYAGORO",
-    "email": "holmansharpe@kyagoro.com",
-    "phone": "+48 (817) 586-2940",
-    "address": "641 Langham Street, Oasis, Michigan, 7129",
-    "description": "Consectetur exercitation mollit aliqua voluptate minim. Ea reprehenderit esse culpa dolore et. Lorem Lorem cillum in consectetur Lorem cillum adipisicing eu irure. Aliquip culpa culpa ullamco fugiat in consectetur incididunt reprehenderit elit tempor ut. Pariatur incididunt enim eu quis. Labore in sunt ipsum in proident occaecat labore enim consequat veniam officia sint.\r\n",
-    "registered": "2014-09-07T19:39:30 -02:00",
-    "latitude": -80.963462,
-    "longitude": -32.306499,
-    "tags": [
-      "incididunt",
-      "aute",
-      "labore",
-      "eiusmod",
-      "elit",
-      "veniam",
-      "ex"
-    ],
-    "items": [
-      {
-        "id": 1,
-        "code": "NA-U10",
-        "name": "Article: NA-U20",
-        "price": 242124.45
-      },
-      {
-        "id": 2,
-        "code": "NA-U20",
-        "name": "Article: NA-U20",
-        "price": 438175.81
-      },
-      {
-        "id": 3,
-        "code": "NA-U90",
         "name": "Article: NA-U50",
-        "price": 272795.04
-      },
-      {
-        "id": 4,
-        "code": "NA-U100",
-        "name": "Article: NA-U20",
-        "price": 522586.32
-      },
-      {
-        "id": 5,
-        "code": "NA-U60",
-        "name": "Article: NA-U10",
-        "price": 804074.2
-      },
-      {
-        "id": 6,
-        "code": "NA-U90",
-        "name": "Article: NA-U30",
-        "price": 430661.11
-      },
-      {
-        "id": 7,
-        "code": "NA-U10",
-        "name": "Article: NA-U70",
-        "price": 612142.05
-      },
-      {
-        "id": 8,
-        "code": "NA-U40",
-        "name": "Article: NA-U10",
-        "price": 231643.7
-      },
-      {
-        "id": 9,
-        "code": "NA-U20",
-        "name": "Article: NA-U60",
-        "price": 444320.03
-      },
-      {
-        "id": 10,
-        "code": "NA-U40",
-        "name": "Article: NA-U10",
-        "price": 8649.13
-      },
-      {
-        "id": 11,
-        "code": "NA-U50",
-        "name": "Article: NA-U10",
-        "price": 862340.19
-      },
-      {
-        "id": 12,
-        "code": "NA-U30",
-        "name": "Article: NA-U30",
-        "price": 518564.78
+        "price": 606699.19,
+        "quantity": 19
       }
     ]
   },
   {
-    "_id": "547080397f7974c114ee2b7a",
+    "_id": "54708e0a280f6249ed261018",
     "index": 7,
-    "guid": "81913aab-0eba-4af2-813a-3b66de657203",
-    "isActive": true,
-    "price": "$3,223.49",
+    "guid": "0a06ab4a-3636-4a3a-8c09-dfdaf4bf4753",
+    "isActive": false,
+    "value": "$3,022.81",
     "numerator": "2014/COMC/8",
     "referenceNumber": "ExtSys/ 28",
-    "customer": "ISOTRACK",
-    "email": "holmansharpe@isotrack.com",
-    "phone": "+48 (833) 411-2356",
-    "address": "361 Quay Street, Fredericktown, Mississippi, 2790",
-    "description": "Do enim aliquip ipsum mollit voluptate aliquip ea duis irure laborum. Veniam laborum nisi dolor ea adipisicing consectetur excepteur. Sunt velit in irure voluptate in. Non labore quis enim exercitation mollit pariatur. Irure ipsum commodo proident ut excepteur laboris.\r\n",
-    "registered": "2014-03-24T12:13:26 -01:00",
-    "latitude": -75.444653,
-    "longitude": -126.558361,
+    "customer": "EMERGENT",
+    "email": "holmansharpe@emergent.com",
+    "phone": "+48 (989) 514-2037",
+    "address": "844 Flatbush Avenue, Century, Georgia, 6054",
+    "description": "Ea sint velit excepteur sint sint reprehenderit cillum magna do irure culpa. Et et eiusmod eu laboris cupidatat occaecat sint eiusmod laborum ut. Consequat magna amet minim irure tempor ad aliqua esse id laborum aute ipsum Lorem elit. Laborum officia fugiat exercitation sint dolor est proident ut culpa ullamco irure aliqua. Fugiat laboris magna non dolor minim dolore adipisicing ullamco id nulla cillum.\r\n",
+    "registered": "2014-08-25T02:15:48 -02:00",
+    "latitude": 19.478955,
+    "longitude": 39.017484,
     "tags": [
-      "elit",
+      "eu",
+      "laboris",
+      "consequat",
+      "dolore",
       "id",
-      "occaecat",
-      "sit",
-      "ut",
-      "amet",
-      "voluptate"
+      "deserunt",
+      "pariatur"
     ],
     "items": [
       {
         "id": 1,
-        "code": "NA-U30",
-        "name": "Article: NA-U90",
-        "price": 571967.93
+        "code": "NA-U70",
+        "name": "Article: NA-U80",
+        "price": 290636.55,
+        "quantity": 17
       },
       {
         "id": 2,
-        "code": "NA-U70",
-        "name": "Article: NA-U60",
-        "price": 403076.16
+        "code": "NA-U10",
+        "name": "Article: NA-U90",
+        "price": 116385.55,
+        "quantity": 30
       },
       {
         "id": 3,
-        "code": "NA-U50",
-        "name": "Article: NA-U70",
-        "price": 554652.02
+        "code": "NA-U60",
+        "name": "Article: NA-U80",
+        "price": 732699.55,
+        "quantity": 20
       },
       {
         "id": 4,
-        "code": "NA-U30",
-        "name": "Article: NA-U30",
-        "price": 329025.58
+        "code": "NA-U70",
+        "name": "Article: NA-U40",
+        "price": 263865.66,
+        "quantity": 28
       },
       {
         "id": 5,
-        "code": "NA-U100",
-        "name": "Article: NA-U80",
-        "price": 158874.23
+        "code": "NA-U60",
+        "name": "Article: NA-U30",
+        "price": 681635.76,
+        "quantity": 21
       },
       {
         "id": 6,
-        "code": "NA-U80",
+        "code": "NA-U50",
         "name": "Article: NA-U40",
-        "price": 982095.02
+        "price": 813587.63,
+        "quantity": 25
       },
       {
         "id": 7,
-        "code": "NA-U60",
-        "name": "Article: NA-U50",
-        "price": 574018.56
+        "code": "NA-U50",
+        "name": "Article: NA-U30",
+        "price": 266006.89,
+        "quantity": 10
       },
       {
         "id": 8,
-        "code": "NA-U40",
-        "name": "Article: NA-U30",
-        "price": 261760.43
+        "code": "NA-U70",
+        "name": "Article: NA-U80",
+        "price": 892425.12,
+        "quantity": 7
       },
       {
         "id": 9,
-        "code": "NA-U80",
-        "name": "Article: NA-U100",
-        "price": 23691.69
+        "code": "NA-U50",
+        "name": "Article: NA-U40",
+        "price": 716921.96,
+        "quantity": 7
       },
       {
         "id": 10,
-        "code": "NA-U100",
-        "name": "Article: NA-U20",
-        "price": 473026.23
+        "code": "NA-U30",
+        "name": "Article: NA-U100",
+        "price": 661831.04,
+        "quantity": 23
       },
       {
         "id": 11,
         "code": "NA-U80",
-        "name": "Article: NA-U60",
-        "price": 281305.41
-      },
-      {
-        "id": 12,
-        "code": "NA-U50",
-        "name": "Article: NA-U100",
-        "price": 758964.89
-      },
-      {
-        "id": 13,
-        "code": "NA-U60",
-        "name": "Article: NA-U60",
-        "price": 222247.94
-      },
-      {
-        "id": 14,
-        "code": "NA-U90",
-        "name": "Article: NA-U100",
-        "price": 20954.19
-      },
-      {
-        "id": 15,
-        "code": "NA-U20",
-        "name": "Article: NA-U40",
-        "price": 346569.27
+        "name": "Article: NA-U10",
+        "price": 264585.62,
+        "quantity": 29
       }
     ]
   },
   {
-    "_id": "54708039e62c61edbb068fad",
+    "_id": "54708e0a599d67ff617a049c",
     "index": 8,
-    "guid": "f6bceb76-b359-4685-b5b5-61d302fab782",
-    "isActive": true,
-    "price": "$2,552.02",
+    "guid": "faaddae1-d3a2-4b3e-80c5-73dbed6e40bd",
+    "isActive": false,
+    "value": "$3,915.91",
     "numerator": "2014/COMC/9",
     "referenceNumber": "ExtSys/ 29",
-    "customer": "BIOLIVE",
-    "email": "holmansharpe@biolive.com",
-    "phone": "+48 (883) 461-2568",
-    "address": "170 Bowne Street, Ticonderoga, Iowa, 9018",
-    "description": "Nulla esse aliquip ad duis qui elit voluptate excepteur anim eiusmod laboris esse velit amet. Occaecat adipisicing dolor duis esse occaecat culpa quis. Dolor amet esse enim anim qui. Ea ex ad dolor consequat. Cupidatat culpa in elit nisi esse in culpa deserunt nostrud et nulla deserunt. Dolore exercitation ad ea cillum eu do in. Adipisicing sit cupidatat consectetur culpa id.\r\n",
-    "registered": "2014-03-14T22:20:34 -01:00",
-    "latitude": -27.55156,
-    "longitude": 83.7057,
+    "customer": "UPLINX",
+    "email": "holmansharpe@uplinx.com",
+    "phone": "+48 (974) 594-2172",
+    "address": "856 Hart Place, Glenbrook, North Carolina, 1736",
+    "description": "Ad exercitation labore veniam enim sint veniam veniam deserunt. Cillum incididunt cupidatat aliqua adipisicing quis. Enim fugiat eu non ex proident ad mollit nisi minim duis sit. Eu nisi sunt quis et sunt consectetur adipisicing voluptate adipisicing eiusmod nulla nulla dolor ea. Voluptate mollit veniam proident excepteur eu eu adipisicing voluptate excepteur Lorem laborum ipsum. Do cupidatat pariatur quis anim ipsum non sint. Enim sit fugiat exercitation aliquip aute eiusmod quis nulla aliqua fugiat consectetur qui ut.\r\n",
+    "registered": "2014-11-12T17:42:28 -01:00",
+    "latitude": -61.565261,
+    "longitude": 10.664532,
     "tags": [
       "enim",
-      "adipisicing",
-      "exercitation",
-      "Lorem",
-      "ad",
-      "Lorem",
-      "eiusmod"
+      "ex",
+      "id",
+      "labore",
+      "qui",
+      "aute",
+      "labore"
     ],
     "items": [
       {
         "id": 1,
-        "code": "NA-U30",
-        "name": "Article: NA-U20",
-        "price": 563392.06
+        "code": "NA-U80",
+        "name": "Article: NA-U50",
+        "price": 427161.77,
+        "quantity": 28
       },
       {
         "id": 2,
-        "code": "NA-U90",
-        "name": "Article: NA-U70",
-        "price": 724777.45
+        "code": "NA-U50",
+        "name": "Article: NA-U100",
+        "price": 253612.66,
+        "quantity": 17
       },
       {
         "id": 3,
-        "code": "NA-U50",
-        "name": "Article: NA-U80",
-        "price": 562312.04
+        "code": "NA-U30",
+        "name": "Article: NA-U60",
+        "price": 453029.49,
+        "quantity": 27
       },
       {
         "id": 4,
-        "code": "NA-U20",
-        "name": "Article: NA-U100",
-        "price": 138990.14
+        "code": "NA-U10",
+        "name": "Article: NA-U60",
+        "price": 738308.62,
+        "quantity": 7
       },
       {
         "id": 5,
-        "code": "NA-U100",
-        "name": "Article: NA-U100",
-        "price": 878089.05
+        "code": "NA-U60",
+        "name": "Article: NA-U30",
+        "price": 976825.74,
+        "quantity": 12
       },
       {
         "id": 6,
-        "code": "NA-U100",
-        "name": "Article: NA-U20",
-        "price": 571918.68
+        "code": "NA-U40",
+        "name": "Article: NA-U80",
+        "price": 863819.31,
+        "quantity": 17
       },
       {
         "id": 7,
-        "code": "NA-U60",
-        "name": "Article: NA-U80",
-        "price": 918437.81
+        "code": "NA-U10",
+        "name": "Article: NA-U100",
+        "price": 585615.2,
+        "quantity": 15
       },
       {
         "id": 8,
-        "code": "NA-U50",
-        "name": "Article: NA-U90",
-        "price": 141925.32
+        "code": "NA-U60",
+        "name": "Article: NA-U80",
+        "price": 757212.77,
+        "quantity": 13
       },
       {
         "id": 9,
-        "code": "NA-U40",
+        "code": "NA-U70",
         "name": "Article: NA-U30",
-        "price": 496682.4
+        "price": 878754.07,
+        "quantity": 21
       },
       {
         "id": 10,
-        "code": "NA-U100",
-        "name": "Article: NA-U100",
-        "price": 708735.55
+        "code": "NA-U10",
+        "name": "Article: NA-U90",
+        "price": 366963.05,
+        "quantity": 29
       },
       {
         "id": 11,
-        "code": "NA-U30",
-        "name": "Article: NA-U90",
-        "price": 975121.53
-      },
-      {
-        "id": 12,
-        "code": "NA-U100",
-        "name": "Article: NA-U50",
-        "price": 800204.95
-      },
-      {
-        "id": 13,
-        "code": "NA-U60",
-        "name": "Article: NA-U100",
-        "price": 779481.5
-      },
-      {
-        "id": 14,
-        "code": "NA-U20",
-        "name": "Article: NA-U100",
-        "price": 857795.48
-      },
-      {
-        "id": 15,
         "code": "NA-U90",
-        "name": "Article: NA-U30",
-        "price": 906260.88
-      },
-      {
-        "id": 16,
-        "code": "NA-U90",
-        "name": "Article: NA-U80",
-        "price": 335938.58
+        "name": "Article: NA-U10",
+        "price": 90767.91,
+        "quantity": 10
       }
     ]
   },
   {
-    "_id": "547080397bf6a2fc3f375314",
+    "_id": "54708e0ab30aaf6e8234adc8",
     "index": 9,
-    "guid": "67444f36-fd43-41a5-9140-3438c85c6e05",
+    "guid": "b9d549c5-03cc-4a79-ac57-d70331098ec9",
     "isActive": true,
-    "price": "$2,952.87",
+    "value": "$3,978.87",
     "numerator": "2014/COMC/10",
     "referenceNumber": "ExtSys/ 30",
-    "customer": "HELIXO",
-    "email": "holmansharpe@helixo.com",
-    "phone": "+48 (882) 403-3070",
-    "address": "347 King Street, Fowlerville, Idaho, 5906",
-    "description": "Eu id ad minim aliquip aliqua ut incididunt eiusmod dolor. Labore pariatur anim dolore Lorem anim ex Lorem qui officia magna nostrud eiusmod sunt. Velit deserunt et ex cillum sunt veniam occaecat. Minim aliqua in ipsum cillum Lorem culpa. Deserunt incididunt commodo ipsum in sint duis velit reprehenderit.\r\n",
-    "registered": "2014-07-10T20:53:57 -02:00",
-    "latitude": 26.965966,
-    "longitude": -151.786634,
+    "customer": "CAPSCREEN",
+    "email": "holmansharpe@capscreen.com",
+    "phone": "+48 (857) 499-3409",
+    "address": "299 Woodbine Street, Why, Iowa, 6501",
+    "description": "Amet velit consectetur velit incididunt deserunt excepteur qui. Ex et labore id laboris dolore velit anim. Do aliquip reprehenderit magna mollit duis est velit duis nulla cillum ex quis. Cillum quis ea nulla sunt elit enim cillum tempor eiusmod sunt.\r\n",
+    "registered": "2014-06-23T06:46:59 -02:00",
+    "latitude": 89.765355,
+    "longitude": 41.621497,
     "tags": [
-      "cupidatat",
-      "elit",
-      "sint",
-      "amet",
-      "exercitation",
+      "nisi",
+      "tempor",
+      "culpa",
+      "sit",
+      "sunt",
       "ut",
       "do"
     ],
     "items": [
       {
         "id": 1,
-        "code": "NA-U60",
-        "name": "Article: NA-U80",
-        "price": 969506.02
+        "code": "NA-U40",
+        "name": "Article: NA-U60",
+        "price": 615391.42,
+        "quantity": 24
       },
       {
         "id": 2,
-        "code": "NA-U90",
-        "name": "Article: NA-U90",
-        "price": 818217.55
+        "code": "NA-U80",
+        "name": "Article: NA-U40",
+        "price": 762017.36,
+        "quantity": 12
       },
       {
         "id": 3,
-        "code": "NA-U80",
-        "name": "Article: NA-U80",
-        "price": 95829.16
+        "code": "NA-U70",
+        "name": "Article: NA-U20",
+        "price": 606275.73,
+        "quantity": 8
       },
       {
         "id": 4,
-        "code": "NA-U80",
-        "name": "Article: NA-U90",
-        "price": 210504.81
+        "code": "NA-U10",
+        "name": "Article: NA-U30",
+        "price": 81856.9,
+        "quantity": 25
       },
       {
         "id": 5,
-        "code": "NA-U20",
-        "name": "Article: NA-U100",
-        "price": 870976.62
+        "code": "NA-U60",
+        "name": "Article: NA-U10",
+        "price": 490130.67,
+        "quantity": 15
       },
       {
         "id": 6,
-        "code": "NA-U90",
-        "name": "Article: NA-U90",
-        "price": 887357.91
+        "code": "NA-U50",
+        "name": "Article: NA-U70",
+        "price": 169263.05,
+        "quantity": 26
       },
       {
         "id": 7,
-        "code": "NA-U50",
-        "name": "Article: NA-U10",
-        "price": 381245.19
+        "code": "NA-U60",
+        "name": "Article: NA-U70",
+        "price": 543298.56,
+        "quantity": 18
       },
       {
         "id": 8,
-        "code": "NA-U70",
-        "name": "Article: NA-U70",
-        "price": 956488.61
+        "code": "NA-U50",
+        "name": "Article: NA-U80",
+        "price": 496108.4,
+        "quantity": 26
       },
       {
         "id": 9,
-        "code": "NA-U50",
+        "code": "NA-U70",
         "name": "Article: NA-U70",
-        "price": 804636.81
+        "price": 142012.07,
+        "quantity": 21
       },
       {
         "id": 10,
         "code": "NA-U30",
         "name": "Article: NA-U20",
-        "price": 331862.03
+        "price": 698351.81,
+        "quantity": 21
       },
       {
         "id": 11,
-        "code": "NA-U60",
-        "name": "Article: NA-U50",
-        "price": 400390.85
+        "code": "NA-U50",
+        "name": "Article: NA-U30",
+        "price": 527331.8,
+        "quantity": 10
       },
       {
         "id": 12,
-        "code": "NA-U20",
-        "name": "Article: NA-U90",
-        "price": 328351.63
+        "code": "NA-U80",
+        "name": "Article: NA-U60",
+        "price": 191029.63,
+        "quantity": 5
       },
       {
         "id": 13,
-        "code": "NA-U60",
-        "name": "Article: NA-U50",
-        "price": 936880.41
+        "code": "NA-U20",
+        "name": "Article: NA-U30",
+        "price": 142646.52,
+        "quantity": 5
       },
       {
         "id": 14,
-        "code": "NA-U40",
-        "name": "Article: NA-U60",
-        "price": 412056.61
-      },
-      {
-        "id": 15,
-        "code": "NA-U100",
-        "name": "Article: NA-U40",
-        "price": 607524.66
-      },
-      {
-        "id": 16,
-        "code": "NA-U90",
-        "name": "Article: NA-U20",
-        "price": 587059.28
-      },
-      {
-        "id": 17,
-        "code": "NA-U30",
-        "name": "Article: NA-U70",
-        "price": 716876.21
-      },
-      {
-        "id": 18,
-        "code": "NA-U50",
-        "name": "Article: NA-U60",
-        "price": 514307.77
-      }
-    ]
-  },
-  {
-    "_id": "547080393868ad6d8b55b5b4",
-    "index": 10,
-    "guid": "a47f4add-794b-495e-94ae-e188a3242211",
-    "isActive": true,
-    "price": "$2,641.99",
-    "numerator": "2014/COMC/11",
-    "referenceNumber": "ExtSys/ 31",
-    "customer": "INTRADISK",
-    "email": "holmansharpe@intradisk.com",
-    "phone": "+48 (863) 540-2946",
-    "address": "214 Doone Court, Deputy, Marshall Islands, 2543",
-    "description": "Aliquip laboris aliqua id veniam minim eu commodo labore irure consequat laborum. Ipsum pariatur consequat magna consectetur tempor tempor fugiat. Non occaecat Lorem ea deserunt officia proident cupidatat ipsum proident laboris et nulla.\r\n",
-    "registered": "2014-04-04T09:15:29 -02:00",
-    "latitude": -67.380972,
-    "longitude": 60.697105,
-    "tags": [
-      "commodo",
-      "mollit",
-      "exercitation",
-      "elit",
-      "in",
-      "cillum",
-      "adipisicing"
-    ],
-    "items": [
-      {
-        "id": 1,
-        "code": "NA-U100",
-        "name": "Article: NA-U60",
-        "price": 600973.46
-      },
-      {
-        "id": 2,
-        "code": "NA-U90",
-        "name": "Article: NA-U10",
-        "price": 504098.29
-      },
-      {
-        "id": 3,
-        "code": "NA-U20",
-        "name": "Article: NA-U10",
-        "price": 33344.54
-      },
-      {
-        "id": 4,
-        "code": "NA-U70",
-        "name": "Article: NA-U70",
-        "price": 955718.41
-      },
-      {
-        "id": 5,
-        "code": "NA-U40",
-        "name": "Article: NA-U40",
-        "price": 348746.46
-      },
-      {
-        "id": 6,
-        "code": "NA-U50",
-        "name": "Article: NA-U100",
-        "price": 869238.95
-      },
-      {
-        "id": 7,
-        "code": "NA-U50",
-        "name": "Article: NA-U60",
-        "price": 317740.94
-      },
-      {
-        "id": 8,
-        "code": "NA-U80",
-        "name": "Article: NA-U60",
-        "price": 676486.63
-      },
-      {
-        "id": 9,
-        "code": "NA-U90",
-        "name": "Article: NA-U30",
-        "price": 91729.98
-      },
-      {
-        "id": 10,
-        "code": "NA-U90",
-        "name": "Article: NA-U70",
-        "price": 56267.34
-      },
-      {
-        "id": 11,
-        "code": "NA-U70",
-        "name": "Article: NA-U60",
-        "price": 551050.18
-      },
-      {
-        "id": 12,
-        "code": "NA-U60",
-        "name": "Article: NA-U60",
-        "price": 548581.73
-      },
-      {
-        "id": 13,
-        "code": "NA-U100",
-        "name": "Article: NA-U20",
-        "price": 740741.44
-      },
-      {
-        "id": 14,
-        "code": "NA-U30",
-        "name": "Article: NA-U40",
-        "price": 275504.86
-      },
-      {
-        "id": 15,
-        "code": "NA-U100",
-        "name": "Article: NA-U30",
-        "price": 160076.41
-      },
-      {
-        "id": 16,
-        "code": "NA-U70",
-        "name": "Article: NA-U90",
-        "price": 159005.74
-      },
-      {
-        "id": 17,
-        "code": "NA-U60",
-        "name": "Article: NA-U70",
-        "price": 419803.04
-      },
-      {
-        "id": 18,
-        "code": "NA-U40",
-        "name": "Article: NA-U70",
-        "price": 220862.36
-      }
-    ]
-  },
-  {
-    "_id": "54708039f50393f1a607adfc",
-    "index": 11,
-    "guid": "af76259a-8ff3-42af-a052-59c10d1872d8",
-    "isActive": false,
-    "price": "$3,239.46",
-    "numerator": "2014/COMC/12",
-    "referenceNumber": "ExtSys/ 32",
-    "customer": "ZANITY",
-    "email": "holmansharpe@zanity.com",
-    "phone": "+48 (810) 455-3981",
-    "address": "465 Eaton Court, Cleary, Puerto Rico, 3959",
-    "description": "Labore ullamco nulla irure dolore incididunt aute laborum dolore. Ut sint deserunt consequat reprehenderit est adipisicing consequat anim culpa velit nostrud irure ullamco. Aliqua consequat do sunt cillum qui esse nulla elit. Voluptate occaecat pariatur laboris deserunt enim cillum excepteur commodo tempor aute. Nulla eiusmod dolore excepteur fugiat irure enim in fugiat sit velit.\r\n",
-    "registered": "2014-03-05T19:38:33 -01:00",
-    "latitude": 6.043189,
-    "longitude": -8.798704,
-    "tags": [
-      "duis",
-      "do",
-      "esse",
-      "laborum",
-      "veniam",
-      "sit",
-      "amet"
-    ],
-    "items": [
-      {
-        "id": 1,
-        "code": "NA-U90",
-        "name": "Article: NA-U70",
-        "price": 291656.2
-      },
-      {
-        "id": 2,
         "code": "NA-U20",
         "name": "Article: NA-U80",
-        "price": 670831.63
-      },
-      {
-        "id": 3,
-        "code": "NA-U30",
-        "name": "Article: NA-U90",
-        "price": 533582.4
-      },
-      {
-        "id": 4,
-        "code": "NA-U100",
-        "name": "Article: NA-U90",
-        "price": 790963.32
-      },
-      {
-        "id": 5,
-        "code": "NA-U20",
-        "name": "Article: NA-U70",
-        "price": 452329.07
-      },
-      {
-        "id": 6,
-        "code": "NA-U20",
-        "name": "Article: NA-U50",
-        "price": 353605.92
-      },
-      {
-        "id": 7,
-        "code": "NA-U100",
-        "name": "Article: NA-U70",
-        "price": 574816.58
-      },
-      {
-        "id": 8,
-        "code": "NA-U80",
-        "name": "Article: NA-U90",
-        "price": 561875.2
-      },
-      {
-        "id": 9,
-        "code": "NA-U50",
-        "name": "Article: NA-U30",
-        "price": 325056.59
-      },
-      {
-        "id": 10,
-        "code": "NA-U90",
-        "name": "Article: NA-U70",
-        "price": 865757.23
-      },
-      {
-        "id": 11,
-        "code": "NA-U10",
-        "name": "Article: NA-U70",
-        "price": 839344.5
-      }
-    ]
-  },
-  {
-    "_id": "547080397dcd0e827b9c3dec",
-    "index": 12,
-    "guid": "7f6d4750-ceab-48f9-8e52-7b0705fd925b",
-    "isActive": false,
-    "price": "$3,158.66",
-    "numerator": "2014/COMC/13",
-    "referenceNumber": "ExtSys/ 33",
-    "customer": "GEEKUS",
-    "email": "holmansharpe@geekus.com",
-    "phone": "+48 (826) 576-2847",
-    "address": "729 Montauk Court, Glendale, Florida, 5679",
-    "description": "Ut laborum voluptate est duis Lorem elit ex ad eiusmod id pariatur id. Ea Lorem irure id Lorem anim ullamco officia ad veniam aliquip voluptate cupidatat nulla. Magna fugiat commodo magna sunt cupidatat id elit. Commodo labore ex incididunt culpa.\r\n",
-    "registered": "2014-05-30T14:45:53 -02:00",
-    "latitude": -0.150849,
-    "longitude": 125.906882,
-    "tags": [
-      "cillum",
-      "proident",
-      "excepteur",
-      "duis",
-      "aliquip",
-      "proident",
-      "qui"
-    ],
-    "items": [
-      {
-        "id": 1,
-        "code": "NA-U80",
-        "name": "Article: NA-U20",
-        "price": 104044.7
-      },
-      {
-        "id": 2,
-        "code": "NA-U40",
-        "name": "Article: NA-U50",
-        "price": 17755.7
-      },
-      {
-        "id": 3,
-        "code": "NA-U80",
-        "name": "Article: NA-U70",
-        "price": 94570.23
-      },
-      {
-        "id": 4,
-        "code": "NA-U10",
-        "name": "Article: NA-U90",
-        "price": 893110
-      },
-      {
-        "id": 5,
-        "code": "NA-U70",
-        "name": "Article: NA-U40",
-        "price": 915926.45
-      },
-      {
-        "id": 6,
-        "code": "NA-U30",
-        "name": "Article: NA-U30",
-        "price": 776498.01
-      },
-      {
-        "id": 7,
-        "code": "NA-U60",
-        "name": "Article: NA-U10",
-        "price": 113945.56
-      },
-      {
-        "id": 8,
-        "code": "NA-U70",
-        "name": "Article: NA-U80",
-        "price": 605013.13
-      },
-      {
-        "id": 9,
-        "code": "NA-U100",
-        "name": "Article: NA-U50",
-        "price": 50793.44
-      },
-      {
-        "id": 10,
-        "code": "NA-U70",
-        "name": "Article: NA-U80",
-        "price": 188418.26
-      },
-      {
-        "id": 11,
-        "code": "NA-U30",
-        "name": "Article: NA-U10",
-        "price": 962998.35
-      },
-      {
-        "id": 12,
-        "code": "NA-U10",
-        "name": "Article: NA-U20",
-        "price": 701039.06
-      },
-      {
-        "id": 13,
-        "code": "NA-U30",
-        "name": "Article: NA-U80",
-        "price": 629298.73
-      },
-      {
-        "id": 14,
-        "code": "NA-U70",
-        "name": "Article: NA-U20",
-        "price": 214726.46
-      },
-      {
-        "id": 15,
-        "code": "NA-U40",
-        "name": "Article: NA-U10",
-        "price": 93533.42
-      },
-      {
-        "id": 16,
-        "code": "NA-U40",
-        "name": "Article: NA-U20",
-        "price": 242927.64
-      },
-      {
-        "id": 17,
-        "code": "NA-U100",
-        "name": "Article: NA-U50",
-        "price": 78048.61
-      }
-    ]
-  },
-  {
-    "_id": "547080397eb42b05bb2c5502",
-    "index": 13,
-    "guid": "c24ccf3f-fcab-4c8b-9b81-380bda1720ef",
-    "isActive": true,
-    "price": "$3,042.35",
-    "numerator": "2014/COMC/14",
-    "referenceNumber": "ExtSys/ 34",
-    "customer": "AQUAZURE",
-    "email": "holmansharpe@aquazure.com",
-    "phone": "+48 (902) 567-3065",
-    "address": "321 Stoddard Place, Bergoo, Alaska, 1730",
-    "description": "Consequat dolore ullamco cupidatat dolore reprehenderit ea veniam duis excepteur aute. Anim nostrud do officia aliquip incididunt quis ipsum quis ex. Aliquip veniam culpa ipsum dolor magna consequat est quis aliquip tempor est.\r\n",
-    "registered": "2014-05-31T08:17:48 -02:00",
-    "latitude": -64.889646,
-    "longitude": -91.202823,
-    "tags": [
-      "irure",
-      "aliqua",
-      "incididunt",
-      "exercitation",
-      "cupidatat",
-      "deserunt",
-      "aute"
-    ],
-    "items": [
-      {
-        "id": 1,
-        "code": "NA-U70",
-        "name": "Article: NA-U80",
-        "price": 764308.61
-      },
-      {
-        "id": 2,
-        "code": "NA-U50",
-        "name": "Article: NA-U80",
-        "price": 763544.66
-      },
-      {
-        "id": 3,
-        "code": "NA-U60",
-        "name": "Article: NA-U60",
-        "price": 815186.9
-      },
-      {
-        "id": 4,
-        "code": "NA-U50",
-        "name": "Article: NA-U20",
-        "price": 327842.99
-      },
-      {
-        "id": 5,
-        "code": "NA-U90",
-        "name": "Article: NA-U30",
-        "price": 673263.75
-      },
-      {
-        "id": 6,
-        "code": "NA-U70",
-        "name": "Article: NA-U80",
-        "price": 555413.72
-      },
-      {
-        "id": 7,
-        "code": "NA-U100",
-        "name": "Article: NA-U40",
-        "price": 656121.48
-      },
-      {
-        "id": 8,
-        "code": "NA-U30",
-        "name": "Article: NA-U90",
-        "price": 395389.23
-      },
-      {
-        "id": 9,
-        "code": "NA-U10",
-        "name": "Article: NA-U80",
-        "price": 6555.44
-      },
-      {
-        "id": 10,
-        "code": "NA-U30",
-        "name": "Article: NA-U90",
-        "price": 9812.83
-      },
-      {
-        "id": 11,
-        "code": "NA-U60",
-        "name": "Article: NA-U60",
-        "price": 792768.4
-      },
-      {
-        "id": 12,
-        "code": "NA-U50",
-        "name": "Article: NA-U40",
-        "price": 922203.62
+        "price": 86782.42,
+        "quantity": 30
       }
     ]
   }
