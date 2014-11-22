@@ -1,4 +1,7 @@
+ 
 //'use strict';
+ 
+ 
 var myapp = angular.module('ngBoilerplate.articles', [
     'ui.router',
     'placeholders',
@@ -42,7 +45,6 @@ myapp.controller('ArticlesCtrl', function ArticlesCtrl($scope, ArticleService, $
             $scope.articles = data;
         });
          
-
         };
 
         $scope.addArticle = function(article) {
