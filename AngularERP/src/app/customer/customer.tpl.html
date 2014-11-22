@@ -1,6 +1,27 @@
-﻿<div class="row">
-<h1 class="page-header">
-    The Elevator P itch
-    <small>For the lazy and impatient.</small>
-</h1>
-</div>
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="exampleWebsite with ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo1: Enable angular</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="author" href="humans.txt">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body ng-app="demo1" ng-controller="customerController">
+    <div class="container">
+
+        <div class="jumbotron">
+            {{FirstName}} <br />
+            {{SecondName}} <br />
+            {{phone}} <br />
+            {{email}} <br />
+
+        </div>
+    </div>
+
+</body>
+</html>
