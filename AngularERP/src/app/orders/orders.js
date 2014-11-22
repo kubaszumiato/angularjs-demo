@@ -41,7 +41,7 @@ angular.module('ngBoilerplate.orders', [
                     controller: 'OrderDetailsCtrl',
                     templateUrl: 'orders/orderDetails.tpl.html'
                 }
-        },
+            },
             data: { pageTitle: 'Our beautiful orders website' }
         });
 })
@@ -52,26 +52,31 @@ angular.module('ngBoilerplate.orders', [
 .controller('OrdersCtrl', function OrdersCtrl($scope, $http, ordersService, $state, $stateParams) {
     $scope.orders = [];
 
-    $scope.predicate = '-numerator';
-    ordersService.getOrders(function (data) {
-        $scope.orders = data;
-    });
-
+    $scope.predicate = 'numerator';
+        ordersService.getOrders(function(data) {
+            for (var i = 0; i < data.length; i++) {
+                for (var j = 0; j < data[i].items.length; j++) {
+                    data[i].items[j].value = data[i].items[j].price * data[i].items[j].quantity;
+                }
+            }
+            $scope.orders = data;
+        });
     $scope.showOrderDetails = function (order) {
         $state.go('details', { id: order.index, order: order }, {reload:true});
     }
 })
 
 .controller('OrderDetailsCtrl', function OrderDetailCtrl($scope, $stateParams) {
-  $scope.order = {};
+    $scope.order = {};
     $scope.id = $stateParams.id;
 
 })
 
-.factory('ordersService', function ($http) {
+
+.factory('ordersService', function($http) {
     return {
-        getOrders: function (callback) {
-            $http.get('assets/orders.json').success(function (data) {
+        getOrders: function(callback) {
+            $http.get('assets/orders.json').success(function(data) {
                 callback(data);
             });
         }
