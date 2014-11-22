@@ -1,12 +1,15 @@
 <div class="jumbotron">
-  <h1>Sales order list</h1>
+    <h1>Sales order list</h1>
 
     <p class="lead">
         List of orders
     </p>
-    <div ng-repeat="order in OrdersCtrl">
-        <div>{{order.numerator}}</div>
-        <div>{{order.value | currency}}</div>
-    </div>
+    <div ng-repeat="order in orders">
+        <div class="row">
+            <div>{{order.numerator}}</div>
+            <div>{{order.value| currency: "PLN" : 0}}</div>
 
+        </div>
+
+    </div>
 </div>
