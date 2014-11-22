@@ -20,7 +20,6 @@
 .controller('customerController', function customerController($scope, $stateParams, $http) {
 
      var index = $stateParams.customerIndex;
-     $scope.Index = index;
      $http.get('assets/Customers.json').success(function (data) {
          $scope.customer = data[index];
      });
