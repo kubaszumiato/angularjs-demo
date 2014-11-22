@@ -22,6 +22,11 @@
     $http.get('assets/Customers.json').success(function (data) {
         $scope.customers = data;
     });
+
+    $scope.openDetails = function(customer)
+    {
+        alert(customer.name);
+    }
 })
 
 ;
