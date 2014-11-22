@@ -53,7 +53,6 @@ angular.module('ngBoilerplate.orders', [
     $scope.orders = [];
 
     $scope.predicate = 'numerator';
-<<<<<<< HEAD
         ordersService.getOrders(function(data) {
             for (var i = 0; i < data.length; i++) {
                 for (var j = 0; j < data[i].items.length; j++) {
@@ -73,19 +72,6 @@ angular.module('ngBoilerplate.orders', [
 
 })
 
-
-=======
-    ordersService.getOrders(function (data) {
-        for (var i = 0; i < data.length; i++) {
-            for (var j = 0; j < data[i].items.length; j++) {
-                data[i].items[j].value = data[i].items[j].price * data[i].items[j].quantity;
-            }
-        }
-        $scope.orders = data;
-    });
-
-})
->>>>>>> f89e2385d2018c5c0af797a4d94f4e7063250cf8
 .factory('ordersService', function($http) {
     return {
         getOrders: function(callback) {
