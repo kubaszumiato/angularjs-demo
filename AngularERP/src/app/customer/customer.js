@@ -17,14 +17,11 @@
     });
 })
 
-.controller('customerController', function customerController($scope, $http, $stateParams) {
+.controller('customerController', function customerController($scope, $stateParams, $http) {
 
-    $scope.index = $stateParams.customerIndex;
-    
-    // take customers from json file
-    $scope.customers = [];
-    $http.get('assets/Customers.json').success(function (data) {
-        $scope.customers = data;
-        $scope.customer = $scope.customer[$scope.index];
-    });
+     var index = $stateParams.customerIndex;
+     $scope.Index = index;
+     $http.get('assets/Customer'+index+'.json').success(function (data) {
+         $scope.customer = data;
+     });
 });
