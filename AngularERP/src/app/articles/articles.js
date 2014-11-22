@@ -40,9 +40,7 @@ angular.module( 'ngBoilerplate.articles', [
 
         $scope.addArticle = function (article) {
             return $scope.articles.push(article);
-        };
-
-        
+        };        
     })
 
 ;
