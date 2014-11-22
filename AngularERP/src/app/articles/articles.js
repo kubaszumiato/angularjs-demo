@@ -15,7 +15,28 @@ myapp.config(function config($stateProvider) {
                 }
             },
             data: { pageTitle: 'articles' }
-        });
+        },
+        {
+            url: '/articles/details',
+            views: {
+                "details": {
+                    controller: 'ArticlesCtrl',
+                    templateUrl: 'articles/details.tpl.html'
+                }
+            },
+            data: { pageTitle: 'details' }
+        }
+        );
+        //$stateProvider.state('articles', {
+        //    url: '/articles/details',
+        //    views: {
+        //        "details": {
+        //            controller: 'ArticlesCtrl',
+        //            templateUrl: 'articles/details.tpl.html'
+        //        }
+        //    },
+        //    data: { pageTitle: 'details' }
+        //});
     })
     .controller('ArticlesCtrl', function ArticlesCtrl($scope, ArticleService) {
         // This is simple a demo for UI Boostrap.
