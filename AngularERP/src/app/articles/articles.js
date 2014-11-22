@@ -19,12 +19,27 @@ angular.module( 'ngBoilerplate.articles', [
 
 .controller('ArticlesCtrl', function ArticlesCtrl($scope) {
   // This is simple a demo for UI Boostrap.
-  $scope.dropdownDemoItems = [
-    "The second choice!",
-    "And another choice for you.",
-    "but wait! A third!",
-    "and Fourth!!"
-  ];
-})
+
+        $scope.articles = [
+            {
+                "_id": "54706f30b29b6229734f580d",
+                "company": "NETPLODE"
+            },
+            {
+                "_id": "54706f30e1ddb00fd58a77a3",
+                "company": "LETPRO"
+            }
+        ];
+
+        $scope.getArticles = function() {
+            return $scope.articles;
+        };
+
+        $scope.addArticle = function (article) {
+            return $scope.articles.push(article);
+        };
+
+        
+    })
 
 ;
