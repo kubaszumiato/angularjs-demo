@@ -17,12 +17,16 @@
     });
 })
 
-.controller('customerController', function customerController($scope, $stateParams) {
+.controller('customerController', function customerController($scope, $stateParams, $http) {
 
+     var index = $stateParams.customerIndex;
+     $scope.Index = index;
+     $http.get('assets/Customer'+index+'.json').success(function (data) {
+         $scope.customer = data;
+     });
 
-        var index = $stateParams.customerIndex;
-        $scope.Index = index;
-
+     //$scope.cust = customers;
+    
     //var cust = $scope.customers[0];
     //$http.get('customers/customer', id).success(function (data) {
     //    $scope.customer = data;
