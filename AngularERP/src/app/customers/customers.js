@@ -19,8 +19,6 @@
 
 .controller('CustomersController', function CustomersController($scope, $http) {
 
-    // take customers from json file
-    $scope.customers = [];
     $http.get('assets/Customers.json').success(function (data) {
         $scope.customers = data;
     });
