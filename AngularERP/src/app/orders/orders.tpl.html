@@ -22,7 +22,7 @@
         </div>        
         <div class="col-md-3">{{order.customer}}</div>
         <div class="col-md-2">{{order.value}}</div>
-        <div class="col-md-5">
+        <div data-ng-style="" class="col-md-5">
             <a href="" ng-repeat="tag in order.tags">{{"#" + tag + " " }}</a>
         </div>
     </div>
@@ -34,13 +34,12 @@
 </div>
 
 <style>
-    
-  [class*="col-"] {
-      padding-top: 15px;
-    padding-bottom: 15px;
-      background-color: #563d7c;
-      background-color: rgba(86, 61, 124, 0.15);
-      border: 1px solid #563d7c;
-      border: 1px solid rgba(86, 61, 124, 0.2);
-  }
+     [class*="col-"] {
+         padding-top: 15px;
+         padding-bottom: 15px;
+         background-color: #563d7c;
+         background-color: rgba(86, 61, 124, 0.15);
+         border: 1px solid #563d7c;
+         border: 1px solid rgba(86, 61, 124, 0.2);
+     }
 </style>
