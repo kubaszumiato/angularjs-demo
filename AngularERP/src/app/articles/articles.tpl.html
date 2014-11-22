@@ -23,9 +23,11 @@
                 </tr>
             </thead>
             <tbody >
-                <tr ng-repeat="article in articles" ng-click="get">
+                <tr ng-repeat="article in articles" >
                     <td>{{article.id}}</td>
                     <td>{{article.code}}</td>
+
+                    <td><a class="btn btn-primary" ng-click="getArticleDetails(article)"> details</a>  </td>
 
                 </tr>
             </tbody>
