@@ -39,6 +39,7 @@ angular.module( 'ngBoilerplate.orders', [
  * And of course we define a controller for our route.
  */
 .controller('OrdersCtrl', function OrdersCtrl($scope) {
+
     $scope.orders = [
         {
             "numerator": "1a",
@@ -49,5 +50,6 @@ angular.module( 'ngBoilerplate.orders', [
             "value": "30"
         }
     ];
+    $scope.predicate = '-numerator';
 });
 

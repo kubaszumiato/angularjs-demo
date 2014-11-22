@@ -4,12 +4,16 @@
     <p class="lead">
         List of orders
     </p>
-    <div ng-repeat="order in orders">
-        <div class="row">
-            <div>{{order.numerator}}</div>
-            <div>{{order.value| currency: "PLN" : 0}}</div>
-
+    <div class="row">
+        <div class="ui-table-cell-visible">
+            <a href="" ng-click="predicate = 'numerator'; reverse=!reverse">Numerator</a>
         </div>
-
+        <div class="ui-table-cell-visible">
+            <a href="" ng-click="predicate = 'value'; reverse=!reverse">Value</a>
+        </div>
+    </div>
+    <div class="row" ng-repeat="order in orders | orderBy:predicate:reverse">
+        <div class="ui-table-cell-visible">{{order.numerator}}</div>
+        <div class="ui-table-cell-visible">{{order.value| currency: "PLN" : 0}}</div>
     </div>
 </div>
