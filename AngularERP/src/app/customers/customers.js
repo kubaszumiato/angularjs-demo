@@ -26,7 +26,7 @@
     $scope.openDetails = function(customer)
     {
         alert(customer.name);
-    }
+    };
 })
 
 ;
