@@ -7,12 +7,12 @@
 
 	<div class="list-group">
 		<div class="row">
-			<div class="col-md-2">Name</div>
-			<div class="col-md-3">Email</div>
+			<div class="col-md-4">Name</div>
+			<div class="col-md-4">Email</div>
 			<div class="col-md-2">Age</div>
 		</div>
 		<div ng-repeat="customer in customers" class="row">
-		    <div class="col-md-2">
+		    <div class="col-md-4">
 		        
                 <a href="#/customers/{{customer.index}}">
                     {{customer.name}}
@@ -20,7 +20,6 @@
 
 		    </div>
 			<div class="col-md-4">{{customer.email}}</div>
-			<div class="col-md-3">{{customer.email}}</div>
 			<div class="col-md-2">{{customer.age}}</div>
 			<button class="col-md-2" ng-click="openDetails(customer)">See details</button>
 		</div>
