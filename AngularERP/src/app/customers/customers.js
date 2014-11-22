@@ -1,7 +1,8 @@
 ﻿angular.module('ngBoilerplate.customers', [
   'ui.router',
   'placeholders',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'ngBoilerplate.customer'
 ])
 
 .config(function config($stateProvider) {
@@ -17,7 +18,7 @@
     });
 })
 
-.controller('CustomersController', function CustomersController($scope, $http) {
+.controller('CustomersController', function CustomersController($scope, $http, $state) {
 
     // take customers from json file
     $scope.customers = [];
@@ -25,10 +26,11 @@
         $scope.customers = data;
     });
 
-    $scope.openDetails = function(customer)
+    $scope.openDetails = function(index)
     {
-        alert(customer.name);
-    }
+        $scope.selectedCustomer = $scope.customers[index];
+        $state.go("customer", {customerIndex: $scope.selectedCustomer.index});
+    };
 })
 
 ;

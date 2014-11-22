@@ -1,4 +1,4 @@
-﻿<!doctype html>
+﻿<!-- <!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -15,13 +15,19 @@
     <div class="container">
 
         <div class="jumbotron">
-            {{FirstName}} <br />
-            {{SecondName}} <br />
-            {{phone}} <br />
-            {{email}} <br />
-
+            {{customer.name}} <br />
+            {{customer.email}} <br />
         </div>
     </div>
 
 </body>
-</html>
+</html> -->
+
+
+<div class="row">
+    <h1 class="page-header">
+        Customer details
+    </h1>
+    {{customer.name}}
+</div>
+

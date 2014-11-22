@@ -6,7 +6,7 @@
 
 .config(function config($stateProvider) {
     $stateProvider.state('customer', {
-        url: '/customer',
+        url: '/customers/:customerIndex',
         views: {
             "main": {
                 controller: 'customerController',
@@ -17,25 +17,14 @@
     });
 })
 
-.controller('customerController', function customerController($scope) {
-    // This is simple a demo for UI Boostrap.
-    //$scope.dropdownDemoItems = [
-    //  "The first choi ce!",
-    //  "And another choice for you.",
-    //  "but wait! A third!"
-    //];
+.controller('customerController', function customerController($scope, $http, $stateParams) {
 
-    //$scope.customers = [];
-    //$http.get('assets/Customers.json').success(function (data) {
-    //    $scope.customers = data;
-    //});
-
-    //var cust = $scope.customers[0];
-
-    $scope.FirstName = "Jan";
-    $scope.SecondName = "Kowalski";
-    $scope.email = "mail@mail.com";
-    $scope.phone = "some phone";
-})
-
-;
+    $scope.index = $stateParams.customerIndex;
+    
+    // take customers from json file
+    $scope.customers = [];
+    $http.get('assets/Customers.json').success(function (data) {
+        $scope.customers = data;
+        $scope.customer = $scope.customer[$scope.index];
+    });
+});
