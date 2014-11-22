@@ -1,62 +1,77 @@
 ﻿[
   {
-    "_id": 0,
-    "company": "BUZZWORKS"
+    "id": 0,
+    "code": "SYBIXTEX",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 1,
-    "company": "JETSILK"
+    "id": 1,
+    "code": "PLAYCE",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 2,
-    "company": "ELENTRIX"
+    "id": 2,
+    "code": "BISBA",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 3,
-    "company": "CABLAM"
+    "id": 3,
+    "code": "MUSIX",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 4,
-    "company": "DYMI"
+    "id": 4,
+    "code": "GEEKULAR",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 5,
-    "company": "ENERSAVE"
+    "id": 5,
+    "code": "PRIMORDIA",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 6,
-    "company": "CHORIZON"
+    "id": 6,
+    "code": "MIRACULA",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 7,
-    "company": "INSURETY"
+    "id": 7,
+    "code": "ECLIPTO",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 8,
-    "company": "APEXIA"
+    "id": 8,
+    "code": "EYEWAX",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 9,
-    "company": "DUOFLEX"
+    "id": 9,
+    "code": "ELECTONIC",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 10,
-    "company": "ZINCA"
+    "id": 10,
+    "code": "OCEANICA",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 11,
-    "company": "MOBILDATA"
+    "id": 11,
+    "code": "BLEENDOT",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 12,
-    "company": "ZILLACTIC"
+    "id": 12,
+    "code": "ZAGGLE",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 13,
-    "company": "ANOCHA"
+    "id": 13,
+    "code": "MANGELICA",
+    "picture": "http://placehold.it/32x32"
   },
   {
-    "_id": 14,
-    "company": "ZOINAGE"
+    "id": 14,
+    "code": "WAAB",
+    "picture": "http://placehold.it/32x32"
   }
 ]
