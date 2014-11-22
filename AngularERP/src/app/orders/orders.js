@@ -41,7 +41,7 @@ angular.module('ngBoilerplate.orders', [
 .controller('OrdersCtrl', function OrdersCtrl($scope, $http, ordersService) {
     $scope.orders = [];
 
-    $scope.predicate = '-numerator';
+    $scope.predicate = 'numerator';
     ordersService.getOrders(function (data) {
         $scope.orders = data;
     });
