@@ -2,7 +2,8 @@
 var myapp = angular.module('ngBoilerplate.articles', [
     'ui.router',
     'placeholders',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'infinite-scroll'
 ]);
 
 myapp.config(function config($stateProvider) {
@@ -29,11 +30,22 @@ myapp.config(function config($stateProvider) {
          
         };
 
+    $scope.articlesDetail = function (article) {
+        console.log(article);
+
+    };
+
         $scope.addArticle = function(article) {
+            $scope.open(200);
             return $scope.articles.push(article);
+            
+        };
 
-
-
+        $scope.loadMore = function () {
+            var last = $scope.images[$scope.images.length - 1];
+            //for (var i = 1; i <= 8; i++) {
+            //    $scope.images.push(last + i);
+            //}
         };
 
         $scope.refreshArticles();

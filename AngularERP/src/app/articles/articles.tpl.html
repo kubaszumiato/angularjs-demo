@@ -2,6 +2,9 @@
 <div ng-app="ngBoilerplate.articles" ng-controller="ArticlesCtrl">
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+    <script src="ng-infinite-scroll.js"></script>
 
     <h1 class="page-header">
         Articles
@@ -16,7 +19,7 @@
                 <span class="glyphicon glyphicon-refresh"></span>
                 Refresh
             </button>
-            <button type="button" class="btn btn-success" ng-click="">
+            <button type="button" class="btn btn-success" ng-click="addArticle()">
                 <span class="glyphicon glyphicon-plus"></span>
                 Add
             </button>
@@ -37,16 +40,31 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="article in articles" ng-click="refreshArticles(article.id)">
-                    <td >{{article.id}}</td>
-                    <td >{{article.code}}</td>
-                    <td> <img src="{{article.picture}}" /></td>
+                <tr ng-repeat="article in articles" ng-click="articlesDetail(article.id)" infinite-scroll='loadMore()' infinite-scroll-distance='2'>
+                    <td>{{article.id}}</td>
+                    <td>{{article.code}}</td>
+                    <!--<td> <img src="{{article.picture}}" class="p" /></td>-->
                 </tr>
             </tbody>
         </table>
+
+        <div ng-click="articlesDetail(article.id)" infinite-scroll="loadMore()" infinite-scroll-distance="2">
+            <img ng-repeat='article in articles' ng-src="{{article.picture}}" class="p">
+            <!--<div>
+                {{article.id}}
+            </div>
+            <div>
+                {{article.code}}
+            </div>-->
+        </div>
+
     </div>
 
-
+    <style>
+        .p {
+            max-width: 600px;
+        }
+    </style>
     <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
 
 </div>
