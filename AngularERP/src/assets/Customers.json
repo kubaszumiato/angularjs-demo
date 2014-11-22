@@ -7,7 +7,8 @@
     "name": "Baird Hudson",
     "email": "bairdhudson@satiance.com",
     "phone": "+1 (977) 574-3502",
-    "address": "342 Erasmus Street, Washington, South Carolina, 3688"
+    "address": "342 Erasmus Street, Washington, South Carolina, 3688",
+    "picture": "http://placehold.it/32x32"
   },
   {
     "_id": "54706a801b0a5a98ad995c96",
@@ -17,7 +18,8 @@
     "name": "Rutledge Workman",
     "email": "rutledgeworkman@satiance.com",
     "phone": "+1 (979) 468-3551",
-    "address": "552 Monaco Place, Grahamtown, Nebraska, 6996"
+    "address": "552 Monaco Place, Grahamtown, Nebraska, 6996",
+    "picture": "http://placehold.it/32x32"
   },
   {
     "_id": "54706a8043066fbd210865f5",
@@ -27,7 +29,8 @@
     "name": "Cassandra Brock",
     "email": "cassandrabrock@satiance.com",
     "phone": "+1 (867) 579-3647",
-    "address": "731 Macdougal Street, Vale, Florida, 1594"
+    "address": "731 Macdougal Street, Vale, Florida, 1594",
+    "picture": "http://placehold.it/32x32"
   },
   {
     "_id": "54706a807d856b1c03585f21",
@@ -37,7 +40,8 @@
     "name": "Torres Hebert",
     "email": "torreshebert@satiance.com",
     "phone": "+1 (810) 596-3879",
-    "address": "407 Lafayette Walk, Lindisfarne, Idaho, 9507"
+    "address": "407 Lafayette Walk, Lindisfarne, Idaho, 9507",
+    "picture": "http://placehold.it/32x32"
   },
   {
     "_id": "54706a80cd164384cd808559",
@@ -47,7 +51,8 @@
     "name": "Mcintyre Good",
     "email": "mcintyregood@satiance.com",
     "phone": "+1 (943) 549-2805",
-    "address": "245 Holt Court, Ada, Alaska, 8324"
+    "address": "245 Holt Court, Ada, Alaska, 8324",
+    "picture": "http://placehold.it/32x32"
   },
   {
     "_id": "54706a80135c8ebed313fd4e",
@@ -57,7 +62,8 @@
     "name": "Trevino Shaffer",
     "email": "trevinoshaffer@satiance.com",
     "phone": "+1 (950) 526-2307",
-    "address": "882 Dean Street, Barstow, North Carolina, 5744"
+    "address": "882 Dean Street, Barstow, North Carolina, 5744",
+    "picture": "http://placehold.it/32x32"
   },
   {
     "_id": "54706a806d126355bf1f7882",
@@ -67,6 +73,7 @@
     "name": "Russell Wall",
     "email": "russellwall@satiance.com",
     "phone": "+1 (867) 467-2705",
-    "address": "680 Provost Street, Ruffin, Marshall Islands, 5469"
+    "address": "680 Provost Street, Ruffin, Marshall Islands, 5469",
+    "picture": "http://placehold.it/32x32"
   }
 ]
