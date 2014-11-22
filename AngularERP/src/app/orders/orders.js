@@ -23,29 +23,51 @@ angular.module('ngBoilerplate.orders', [
  * this way makes each module more "self-contained".
  */
 .config(function config($stateProvider) {
-    $stateProvider.state('orders', {
-        url: '/orders',
-        views: {
-            "main": {
-                controller: 'OrdersCtrl',
-                templateUrl: 'orders/orders.tpl.html'
-            }
+    $stateProvider
+        .state('orders', {
+            url: '/orders',
+            views: {
+                "main": {
+                    controller: 'OrdersCtrl',
+                    templateUrl: 'orders/orders.tpl.html'
+                }
+            },
+            data: { pageTitle: 'Our beautiful orders website' }
+        })
+        .state('details', {
+            url: '/details/{id}',
+            views: {
+                "main": {
+                    controller: 'OrderDetailsCtrl',
+                    templateUrl: 'orders/orderDetails.tpl.html'
+                }
         },
-        data: { pageTitle: 'Our beautiful orders website' }
-    });
+            data: { pageTitle: 'Our beautiful orders website' }
+        });
 })
 
 /**
  * And of course we define a controller for our route.
  */
-.controller('OrdersCtrl', function OrdersCtrl($scope, $http, ordersService) {
+.controller('OrdersCtrl', function OrdersCtrl($scope, $http, ordersService, $state, $stateParams) {
     $scope.orders = [];
 
     $scope.predicate = '-numerator';
     ordersService.getOrders(function (data) {
         $scope.orders = data;
     });
+
+    $scope.showOrderDetails = function (order) {
+        $state.go('details', { id: order.index, order: order }, {reload:true});
+    }
 })
+
+.controller('OrderDetailsCtrl', function OrderDetailCtrl($scope, $stateParams) {
+  $scope.order = {};
+    $scope.id = $stateParams.id;
+
+})
+
 .factory('ordersService', function ($http) {
     return {
         getOrders: function (callback) {

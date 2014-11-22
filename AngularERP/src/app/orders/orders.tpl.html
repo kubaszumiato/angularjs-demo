@@ -12,7 +12,7 @@
             <a href="" ng-click="predicate = 'value'; reverse=!reverse">Value</a>
         </div>
     </div>
-    <div class="row" ng-repeat="order in orders | orderBy:predicate:reverse">
+    <div class="row" ng-repeat="order in orders | orderBy:predicate:reverse" ng-click="showOrderDetails(order)">
         <div class="col-md-6">{{order.numerator}}</div>
         <div class="col-md-6">{{order.value| currency: "PLN " : 0}}</div>
     </div>
