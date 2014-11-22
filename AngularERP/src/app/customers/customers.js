@@ -17,13 +17,13 @@
     });
 })
 
-.controller('CustomersController', function CustomersController($scope) {
-    // This is simple a demo for UI Boostrap.
-    $scope.dropdownDemoItems = [
-      "The first choi ce!",
-      "And another choice for you.",
-      "but wait! A third!"
-    ];
+.controller('CustomersController', function CustomersController($scope, $http) {
+
+    // take customers from json file
+    $scope.customers = [];
+    $http.get('assets/Customers.json').success(function (data) {
+        $scope.customers = data;
+    });
 })
 
 ;

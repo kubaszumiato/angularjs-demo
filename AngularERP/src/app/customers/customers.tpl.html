@@ -1,6 +1,11 @@
 ﻿<div class="row">
 <h1 class="page-header">
-    The Elevator P itch
-    <small>For the lazy and impatient.</small>
+	List of customers
 </h1>
+
+<div>
+	<ul>
+        <li ng-repeat="customer in customers">{{customer.name}}</li>
+    </ul>
+</div>
 </div>
