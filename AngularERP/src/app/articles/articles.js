@@ -22,7 +22,8 @@ angular.module( 'ngBoilerplate.articles', [
   $scope.dropdownDemoItems = [
     "The second choice!",
     "And another choice for you.",
-    "but wait! A third!"
+    "but wait! A third!",
+    "and Fourth!!"
   ];
 })
 
