@@ -43,13 +43,17 @@ angular.module( 'ngBoilerplate.orders', [
     $scope.orders = [
         {
             "numerator": "1a",
-            "value": "25"
+            "value": 25
         },
         {
             "numerator": "2x",
-            "value": "30"
+            "value": 30
+        },
+        {
+            "numerator": "2x",
+            "value": 2
         }
     ];
-    $scope.predicate = '-numerator';
+    $scope.predicate = 'numerator';
 });
 
