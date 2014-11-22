@@ -3,29 +3,35 @@
 		List of customers
 	</h1>
 
-	<p>Filter: <input ng-model="customerFilter" type="text" placeholder="customer name" autofocus></p>	
+    <div class="input-group" style="margin-bottom: 20px;">
+        <input ng-model="customerFilter" class="form-control" type="text" placeholder="Customer name" autofocus>
 
-	<div class="list-group">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Search</button>
+        </span>
+    </div><!-- /input-group -->
+
+    <div class="list-group">
 		<div class="row">
 			<div class="col-md-4">Name</div>
 			<div class="col-md-4">Email</div>
 			<div class="col-md-2">Age</div>
 		</div>
-		<div ng-repeat="customer in customers | filter:customerFilter" class="row" ng-click="openDetails($index)">
-		    
-		    <div class="col-md-4">
-		        
+        <div ng-repeat="customer in customers | filter:customerFilter" class="row" ng-click="openDetails($index)">
+
+            <div class="col-md-4">
+
                 <a href="#/customers/{{customer.index}}">
                     {{customer.name}}
                 </a>
 
-		    </div>
+            </div>
 
-		    <!-- <div class="col-md-4">{{customer.name}}</div> -->
-			<div class="col-md-4">{{customer.email}}</div>
-			<div class="col-md-2">{{customer.age}}</div>
-			<!-- <button class="col-md-2" ng-click="openDetails($index)">See details</button> -->
-		</div>
+            <!-- <div class="col-md-4">{{customer.name}}</div> -->
+            <div class="col-md-4">{{customer.email}}</div>
+            <div class="col-md-2">{{customer.age}}</div>
+            <!-- <button class="col-md-2" ng-click="openDetails($index)">See details</button> -->
+        </div>
 	</div>
 </div>
 
