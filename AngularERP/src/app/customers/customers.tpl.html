@@ -1,4 +1,10 @@
-﻿<div class="row">
+﻿<style type="text/css">
+    .customer-list-item:hover {
+        background-color: #D4F3E9;
+    }
+</style>
+
+<div class="row">
 	<h1 class="page-header">
 		List of customers
 	</h1>
@@ -12,12 +18,12 @@
     </div><!-- /input-group -->
 
     <div class="list-group">
-		<div class="row">
-			<div class="col-md-4">Name</div>
-			<div class="col-md-4">Email</div>
-			<div class="col-md-2">Age</div>
-		</div>
-        <div ng-repeat="customer in customers | filter:customerFilter" class="row" ng-click="openDetails($index)">
+        <div class="row">
+            <div class="col-md-4">Name</div>
+            <div class="col-md-4">Email</div>
+            <div class="col-md-2">Age</div>
+        </div>
+        <div ng-repeat="customer in customers | filter:customerFilter" class="row customer-list-item" ng-click="openDetails($index)">
 
             <div class="col-md-4">
 
@@ -32,6 +38,6 @@
             <div class="col-md-2">{{customer.age}}</div>
             <!-- <button class="col-md-2" ng-click="openDetails($index)">See details</button> -->
         </div>
-	</div>
+    </div>
 </div>
 
