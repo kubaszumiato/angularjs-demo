@@ -11,8 +11,15 @@
 			<div class="col-md-3">Email</div>
 			<div class="col-md-2">Age</div>
 		</div>
-		<div ng-repeat="customer in customers | filter:customerFilter" class="row">
-			<div class="col-md-2">{{customer.name}}</div>
+		<div ng-repeat="customer in customers" class="row">
+		    <div class="col-md-2">
+		        
+                <a href="#/customers/{{customer.index}}">
+                    {{customer.name}}
+                </a>
+
+		    </div>
+			<div class="col-md-4">{{customer.email}}</div>
 			<div class="col-md-3">{{customer.email}}</div>
 			<div class="col-md-2">{{customer.age}}</div>
 			<button class="col-md-2" ng-click="openDetails(customer)">See details</button>
