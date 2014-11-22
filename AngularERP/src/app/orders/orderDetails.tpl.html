@@ -1,8 +1,9 @@
 <div class="jumbotron">
+    {{id}}
     <div class="col-sm-3 col-md-2 sidebar">
         <ul class="nav nav-sidebar">
-            <li ng-repeat="order in orders" class="active">
-                <a href="">{{order.numerator}}</a>
+            <li ng-repeat="orderHeader in orders" class="active">
+                <a href="">{{orderHeader.numerator}}</a>
             </li>
         </ul>
     </div>
@@ -37,10 +38,31 @@
             <div class="col-md-4">{{element.quantity}}</div>
         </div>
         <!--<div class="row">
-            <div style="background-color: green" class="col-md-6 col-md-offset-5">
-                abc
-            </div>
-        </div>-->
+                <div style="background-color: green" class="col-md-6 col-md-offset-5">
+                    abc
+                </div>
+            </div>-->
 
     </div>
 </div>
+
+<style>
+    .nav-sidebar {
+    margin-right: -21px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0px;
+        left: 0px;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #F5F5F5;
+        border-right: 1px solid #EEE;
+    }
+</style>
