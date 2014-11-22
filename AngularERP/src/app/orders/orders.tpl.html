@@ -5,15 +5,20 @@
         List of orders
     </p>
     <div class="row">
-        <div class="ui-table-cell-visible">
+        <div class="col-md-6">
             <a href="" ng-click="predicate = 'numerator'; reverse=!reverse">Numerator</a>
         </div>
-        <div class="ui-table-cell-visible">
+        <div class="col-md-6">
             <a href="" ng-click="predicate = 'value'; reverse=!reverse">Value</a>
         </div>
     </div>
     <div class="row" ng-repeat="order in orders | orderBy:predicate:reverse">
-        <div class="ui-table-cell-visible">{{order.numerator}}</div>
-        <div class="ui-table-cell-visible">{{order.value| currency: "PLN" : 0}}</div>
+        <div class="col-md-6">{{order.numerator}}</div>
+        <div class="col-md-6">{{order.value| currency: "PLN" : 0}}</div>
     </div>
+    <!--<div class="row">
+        <div style="background-color: green" class="col-md-6 col-md-offset-5">
+            abc
+        </div>
+    </div>-->
 </div>
