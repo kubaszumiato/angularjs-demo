@@ -21,7 +21,7 @@
 
      var index = $stateParams.customerIndex;
      $scope.Index = index;
-     $http.get('assets/Customer'+index+'.json').success(function (data) {
-         $scope.customer = data;
+     $http.get('assets/Customers.json').success(function (data) {
+         $scope.customer = data[index];
      });
 });
