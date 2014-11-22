@@ -1,48 +1,70 @@
-angular.module( 'ngBoilerplate.articles', [
-  'ui.router',
-  'placeholders',
-  'ui.bootstrap'
-])
+//use strict';
+var myapp = angular.module('ngBoilerplate.articles', [
+    'ui.router',
+    'placeholders',
+    'ui.bootstrap'
+]);
 
-.config(function config( $stateProvider ) {
-    $stateProvider.state('articles', {
-        url: '/articles',
-    views: {
-      "main": {
-          controller: 'ArticlesCtrl',
-          templateUrl: 'articles/articles.tpl.html'
-      }
-    },
-    data:{ pageTitle: 'articles' }
-  });
-})
-
-.controller('ArticlesCtrl', function ArticlesCtrl($scope) {
-  // This is simple a demo for UI Boostrap.
-
-        $scope.articles = [
-            {
-                "id": "54706f30b29b6229734f580d",
-                "code": "NETPLODE"
+myapp.config(function config($stateProvider) {
+        $stateProvider.state('articles', {
+            url: '/articles',
+            views: {
+                "main": {
+                    controller: 'ArticlesCtrl',
+                    templateUrl: 'articles/articles.tpl.html'
+                }
             },
-            {
-                "id": "54706f30e1ddb00fd58a77a3",
-                "code": "LETPRO"
-            }
-        ];
+            data: { pageTitle: 'articles' }
+        });
+    })
+    .controller('ArticlesCtrl', function ArticlesCtrl($scope, ArticleService) {
+        // This is simple a demo for UI Boostrap.
+        console.log('ArticlesCtrl controller loaded sd');
+    $scope.articles = []; 
+    $scope.refreshArticles = function () {
+        console.log('refreshArticles');
+        ArticleService.getArticles(function(data) {
+            $scope.articles = data;
+        });
+         
 
-        $scope.refreshArticles = function() {
-            articles.push({
-                "id": "54706f30e1ddb00fd58a77a3",
-                "code": "LETPRO"
-            });
         };
 
-        $scope.addArticle = function (article) {
+        $scope.addArticle = function(article) {
             return $scope.articles.push(article);
         };
 
-        
-    })
+        $scope.refreshArticles();
+        console.log('xxx');
+    });
 
-;
+myapp.service("ArticleService", function($http, $location) {
+    var ArticleService = {};
+
+    ArticleService.getArticles = function (callback) {
+
+        console.log('ArticleService.getArticles');
+         
+        $http.get('assets/ArticlesList.json').success(function (data) {
+            console.log('success get');
+            console.log(data);
+            callback(data);
+        });
+    };
+
+    ArticleService.saveArticles = function (article) {
+
+    };
+
+    ArticleService.deleteArticle = function () {
+
+    };
+
+    ArticleService.getArticlestmp = function () {
+
+    };
+
+    return ArticleService;
+});
+
+
