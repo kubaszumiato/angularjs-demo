@@ -12,44 +12,46 @@
  * The dependencies block here is also where component dependencies should be
  * specified, as shown below.
  */
-angular.module( 'ngBoilerplate.orders', [
-  'ui.router',
-  'plusOne'
-])
+angular.module('ngBoilerplate.orders', [
+        'ui.router',
+        'plusOne'
+    ])
 
 /**
  * Each section or module of the site can also have its own routes. AngularJS
  * will handle ensuring they are all available at run-time, but splitting it
  * this way makes each module more "self-contained".
  */
-.config(function config( $stateProvider ) {
-  $stateProvider.state( 'orders', {
-    url: '/orders',
-    views: {
-      "main": {
-        controller: 'OrdersCtrl',
-        templateUrl: 'orders/orders.tpl.html'
-      }
-    },
-    data:{ pageTitle: 'Our beautiful orders website' }
-  });
+.config(function config($stateProvider) {
+    $stateProvider.state('orders', {
+        url: '/orders',
+        views: {
+            "main": {
+                controller: 'OrdersCtrl',
+                templateUrl: 'orders/orders.tpl.html'
+            }
+        },
+        data: { pageTitle: 'Our beautiful orders website' }
+    });
 })
 
 /**
  * And of course we define a controller for our route.
  */
-.controller('OrdersCtrl', function OrdersCtrl($scope) {
+.controller('OrdersCtrl', function OrdersCtrl($scope, $http, ordersService) {
 
-    $scope.orders = [
-        {
-            "numerator": "1a",
-            "value": "25"
-        },
-        {
-            "numerator": "2x",
-            "value": "30"
-        }
-    ];
     $scope.predicate = '-numerator';
-});
+    ordersService.getOrders(function(data) {
+        $scope.orders = data;
+    });
 
+})
+.factory('ordersService', function($http) {
+    return {
+        getOrders: function(callback) {
+            $http.get('assets/orders.json').success(function(data) {
+                callback(data);
+            });
+        }
+    };
+});
