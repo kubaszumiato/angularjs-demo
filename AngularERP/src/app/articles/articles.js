@@ -61,7 +61,7 @@ myapp.controller('ArticlesCtrl', function ArticlesCtrl($scope, ArticleService, $
         console.log('xxx');
 });
 
-myapp.controller('ArticleDetailsCtrl', function ArticleDetailsCtrl($scope, $stateParams, ArticleService) {
+myapp.controller('ArticleDetailsCtrl', function ArticleDetailsCtrl($scope, $stateParams, ArticleService, $state) {
     // This is simple a demo for UI Boostrap.
     console.log('jhvhjg  ' + $stateParams.id);
     console.log('ArticleDetailsCtrl controller loaded sd');
@@ -71,6 +71,11 @@ myapp.controller('ArticleDetailsCtrl', function ArticleDetailsCtrl($scope, $stat
         ArticleService.getArticlebyId($stateParams.id,function (data) {
             $scope.article = data;
         });
+
+
+    };
+    $scope.openList = function () {
+        $state.go('articles', {  }, { reload: true });
 
 
     };
