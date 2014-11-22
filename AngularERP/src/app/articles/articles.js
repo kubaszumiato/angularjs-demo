@@ -22,12 +22,12 @@ angular.module( 'ngBoilerplate.articles', [
 
         $scope.articles = [
             {
-                "_id": "54706f30b29b6229734f580d",
-                "company": "NETPLODE"
+                "id": "54706f30b29b6229734f580d",
+                "code": "NETPLODE"
             },
             {
-                "_id": "54706f30e1ddb00fd58a77a3",
-                "company": "LETPRO"
+                "id": "54706f30e1ddb00fd58a77a3",
+                "code": "LETPRO"
             }
         ];
 
