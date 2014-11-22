@@ -23,15 +23,15 @@ angular.module( 'ngBoilerplate.articles', [
         $scope.articles = [
             {
                 "id": "54706f30b29b6229734f580d",
-                "code": "NETPLODE"
+                "code": "NETPLODEsaa"
             },
             {
                 "id": "54706f30e1ddb00fd58a77a3",
-                "code": "LETPRO"
+                "code": "LETPROsada"
             }
         ];
 
-        $scope.refreshArticles = function() {
+        $scope.refreshArticles = function () {
             articles.push({
                 "id": "54706f30e1ddb00fd58a77a3",
                 "code": "LETPRO"
