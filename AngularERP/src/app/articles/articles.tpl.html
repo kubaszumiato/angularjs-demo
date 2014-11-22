@@ -34,35 +34,38 @@
         <table class="table table-hover ">
             <thead>
                 <tr>
+                    <th>Image</th>
                     <th>Id</th>
                     <th>Code</th>
-                    <th>Image</th>
+                    
                 </tr>
             </thead>
-            <tbody>
+
+            <!--<tbody>
                 <tr ng-repeat="article in articles" ng-click="articlesDetail(article.id)" infinite-scroll='loadMore()' infinite-scroll-distance='2'>
                     <td>{{article.id}}</td>
+                    <td>{{article.code}}</td>-->
+            <!--<td> <img src="{{article.picture}}" class="p" /></td>-->
+
+
+            <tbody>
+                <tr ng-repeat="article in articles">
+                    <td> <img src="{{article.picture}}" class="p" /></td>
+                    <td>{{article.id}}</td>
                     <td>{{article.code}}</td>
-                    <!--<td> <img src="{{article.picture}}" class="p" /></td>-->
+
+                    <td><a class="btn btn-primary" ng-click="getArticleDetails(article)"> details</a>  </td>
+
+
                 </tr>
             </tbody>
         </table>
-
-        <div ng-click="articlesDetail(article.id)" infinite-scroll="loadMore()" infinite-scroll-distance="2">
-            <img ng-repeat='article in articles' ng-src="{{article.picture}}" class="p">
-            <!--<div>
-                {{article.id}}
-            </div>
-            <div>
-                {{article.code}}
-            </div>-->
-        </div>
 
     </div>
 
     <style>
         .p {
-            max-width: 600px;
+            max-width: 200px;
         }
     </style>
     <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->

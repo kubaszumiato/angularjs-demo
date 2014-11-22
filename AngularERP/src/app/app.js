@@ -3,7 +3,7 @@ angular.module( 'ngBoilerplate', [
   'templates-common',
   'ngBoilerplate.home',
   'ngBoilerplate.about',
-  'ngBoilerplate.articles',
+  'ngBoilerplate.articles', 
   'ui.router'
 ])
 
