@@ -15,7 +15,7 @@
 angular.module('ngBoilerplate.orders', [
         'ui.router',
         'plusOne'
-    ])
+])
 
 /**
  * Each section or module of the site can also have its own routes. AngularJS
@@ -39,36 +39,17 @@ angular.module('ngBoilerplate.orders', [
  * And of course we define a controller for our route.
  */
 .controller('OrdersCtrl', function OrdersCtrl($scope, $http, ordersService) {
+    $scope.orders = [];
 
-<<<<<<< HEAD
     $scope.predicate = '-numerator';
-    ordersService.getOrders(function(data) {
+    ordersService.getOrders(function (data) {
         $scope.orders = data;
     });
-=======
-    $scope.orders = [
-        {
-            "numerator": "1a",
-            "value": 25
-        },
-        {
-            "numerator": "2x",
-            "value": 30
-        },
-        {
-            "numerator": "2x",
-            "value": 2
-        }
-    ];
-    $scope.predicate = 'numerator';
-});
->>>>>>> 262fe97f598793a0be860e383d630bc241f12403
-
 })
-.factory('ordersService', function($http) {
+.factory('ordersService', function ($http) {
     return {
-        getOrders: function(callback) {
-            $http.get('assets/orders.json').success(function(data) {
+        getOrders: function (callback) {
+            $http.get('assets/orders.json').success(function (data) {
                 callback(data);
             });
         }
