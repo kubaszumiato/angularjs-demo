@@ -38,8 +38,17 @@ angular.module( 'ngBoilerplate.orders', [
 /**
  * And of course we define a controller for our route.
  */
-.controller( 'OrdersCtrl', function OrdersCtrl( $scope ) {
-})
+.controller('OrdersCtrl', function OrdersCtrl($scope) {
+    this.orders = orders;
+});
 
-;
-
+var orders = [
+    {
+        "numerator": "1a",
+        "value": "25PLN"
+    },
+    {
+        "numerator": "2x",
+        "value": "30PLN"
+    }
+]
