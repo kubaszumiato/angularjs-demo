@@ -1,5 +1,4 @@
 <div class="jumbotron">
-    {{id}}
     <div class="col-sm-3 col-md-2 sidebar">
         <ul class="nav nav-sidebar">
             <li ng-repeat="orderHeader in orders" class="active">
@@ -18,24 +17,24 @@
         </div>
         <p>Elements list</p>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="" ng-click="predicate = 'code'; reverse=!reverse">Code</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="" ng-click="predicate = 'name'; reverse=!reverse">Name</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="" ng-click="predicate = 'price'; reverse=!reverse">Price</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="" ng-click="predicate = 'quantity'; reverse=!reverse">Quantity</a>
             </div>
         </div>
         <div class="row" ng-repeat="element in order.items | orderBy:predicate:reverse">
-            <div class="col-md-4">{{element.code}}</div>
-            <div class="col-md-4">{{element.name}}</div>
-            <div class="col-md-4">{{element.price | curency "PLN " : 0}}</div>
-            <div class="col-md-4">{{element.quantity}}</div>
+            <div class="col-md-3">{{element.code}}</div>
+            <div class="col-md-3">{{element.name}}</div>
+            <div class="col-md-3">{{element.price}}</div>
+            <div class="col-md-3">{{element.quantity}}</div>
         </div>
         <!--<div class="row">
                 <div style="background-color: green" class="col-md-6 col-md-offset-5">
@@ -48,10 +47,10 @@
 
 <style>
     .nav-sidebar {
-    margin-right: -21px;
-    margin-bottom: 20px;
-    margin-left: -20px;
-}
+        margin-right: -21px;
+        margin-bottom: 20px;
+        margin-left: -20px;
+    }
     .sidebar {
         position: fixed;
         top: 51px;
@@ -65,4 +64,14 @@
         background-color: #F5F5F5;
         border-right: 1px solid #EEE;
     }
+        [class*="col-"] {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #563d7c;
+        background-color: rgba(86, 61, 124, 0.15);
+        border: 1px solid #563d7c;
+        border: 1px solid rgba(86, 61, 124, 0.2);
+        min-height: 52px;
+    }
 </style>
+
