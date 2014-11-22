@@ -17,7 +17,7 @@
     });
 })
 
-.controller('customerController', function customerController($scope) {
+.controller('customerController', function customerController($scope, $http) {
     // This is simple a demo for UI Boostrap.
     //$scope.dropdownDemoItems = [
     //  "The first choi ce!",
@@ -31,11 +31,13 @@
     //});
 
     //var cust = $scope.customers[0];
+    $http.get('customers/customer', id).success(function (data) {
+        $scope.customer = data;
+    });
 
-    $scope.FirstName = "Jan";
-    $scope.SecondName = "Kowalski";
-    $scope.email = "mail@mail.com";
-    $scope.phone = "some phone";
+
+
+
 })
 
 ;
