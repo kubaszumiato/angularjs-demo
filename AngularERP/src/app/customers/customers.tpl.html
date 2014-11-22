@@ -1,11 +1,19 @@
 ﻿<div class="row">
-<h1 class="page-header">
-	List of customers
-</h1>
+	<h1 class="page-header">
+		List of customers
+	</h1>
 
-<div>
-	<ul>
-        <li ng-repeat="customer in customers">{{customer.name}}</li>
-    </ul>
+	<div class="list-group">
+		<div class="row">
+			<div class="col-md-2">Name</div>
+			<div class="col-md-4">Email</div>
+			<div class="col-md-2">Age</div>
+		</div>
+		<div ng-repeat="customer in customers" class="row">
+			<div class="col-md-2">{{customer.name}}</div>
+			<div class="col-md-4">{{customer.email}}</div>
+			<div class="col-md-2">{{customer.age}}</div>
+		</div>
+	</div>
 </div>
-</div>
+
