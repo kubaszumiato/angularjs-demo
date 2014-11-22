@@ -53,6 +53,9 @@ myapp.config(function config($stateProvider) {
 
         $scope.addArticle = function(article) {
             return $scope.articles.push(article);
+
+
+
         };
 
         $scope.refreshArticles();
@@ -87,5 +90,6 @@ myapp.service("ArticleService", function($http, $location) {
 
     return ArticleService;
 });
+
 
 
