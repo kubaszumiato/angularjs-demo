@@ -5,7 +5,12 @@
 var myapp = angular.module('ngBoilerplate.articles', [
     'ui.router',
     'placeholders',
+<<<<<<< HEAD
+    'ui.bootstrap',
+    'infinite-scroll'
+=======
     'ui.bootstrap' 
+>>>>>>> 0eb4b2d6cc35629d3306c302d63503a9113bf13c
 ]);
 
 myapp.config(function config($stateProvider) {
@@ -47,11 +52,22 @@ myapp.controller('ArticlesCtrl', function ArticlesCtrl($scope, ArticleService, $
          
         };
 
+    $scope.articlesDetail = function (article) {
+        console.log(article);
+
+    };
+
         $scope.addArticle = function(article) {
+            $scope.open(200);
             return $scope.articles.push(article);
+            
+        };
 
-
-
+        $scope.loadMore = function () {
+            var last = $scope.images[$scope.images.length - 1];
+            //for (var i = 1; i <= 8; i++) {
+            //    $scope.images.push(last + i);
+            //}
         };
     $scope.getArticleDetails = function(article) {
         $state.go('details', { id: article.id }, { reload: true });
@@ -61,7 +77,7 @@ myapp.controller('ArticlesCtrl', function ArticlesCtrl($scope, ArticleService, $
         console.log('xxx');
 });
 
-myapp.controller('ArticleDetailsCtrl', function ArticleDetailsCtrl($scope, $stateParams, ArticleService) {
+myapp.controller('ArticleDetailsCtrl', function ArticleDetailsCtrl($scope, $stateParams, ArticleService, $state) {
     // This is simple a demo for UI Boostrap.
     console.log('jhvhjg  ' + $stateParams.id);
     console.log('ArticleDetailsCtrl controller loaded sd');
@@ -71,6 +87,11 @@ myapp.controller('ArticleDetailsCtrl', function ArticleDetailsCtrl($scope, $stat
         ArticleService.getArticlebyId($stateParams.id,function (data) {
             $scope.article = data;
         });
+
+
+    };
+    $scope.openList = function () {
+        $state.go('articles', {  }, { reload: true });
 
 
     };

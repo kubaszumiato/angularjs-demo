@@ -2,6 +2,9 @@
 <div ng-app="ngBoilerplate.articles" ng-controller="ArticlesCtrl">
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+    <script src="ng-infinite-scroll.js"></script>
 
     <h1 class="page-header">
         Articles
@@ -16,7 +19,7 @@
                 <span class="glyphicon glyphicon-refresh"></span>
                 Refresh
             </button>
-            <button type="button" class="btn btn-success" ng-click="">
+            <button type="button" class="btn btn-success" ng-click="addArticle()">
                 <span class="glyphicon glyphicon-plus"></span>
                 Add
             </button>
@@ -31,26 +34,40 @@
         <table class="table table-hover ">
             <thead>
                 <tr>
+                    <th>Image</th>
                     <th>Id</th>
                     <th>Code</th>
-                    <th>Image</th>
+                    
                 </tr>
             </thead>
- 
-            <tbody >
-            <tr ng-repeat="article in articles" >
-                <td> <img src="{{article.picture}}" /></td>
+
+            <!--<tbody>
+                <tr ng-repeat="article in articles" ng-click="articlesDetail(article.id)" infinite-scroll='loadMore()' infinite-scroll-distance='2'>
+                    <td>{{article.id}}</td>
+                    <td>{{article.code}}</td>-->
+            <!--<td> <img src="{{article.picture}}" class="p" /></td>-->
+
+
+            <tbody>
+                <tr ng-repeat="article in articles">
+                    <td> <img src="{{article.picture}}" class="p" /></td>
                     <td>{{article.id}}</td>
                     <td>{{article.code}}</td>
 
                     <td><a class="btn btn-primary" ng-click="getArticleDetails(article)"> details</a>  </td>
- 
+
+
                 </tr>
             </tbody>
         </table>
+
     </div>
 
-
+    <style>
+        .p {
+            max-width: 200px;
+        }
+    </style>
     <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
 
 </div>
