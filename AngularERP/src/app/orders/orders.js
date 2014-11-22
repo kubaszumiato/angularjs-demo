@@ -67,7 +67,7 @@ angular.module('ngBoilerplate.orders', [
 })
 
 .controller('OrderDetailsCtrl', function OrderDetailCtrl($scope, $stateParams) {
-    $scope.order = {};
+    $scope.order = $stateParams.order;
     $scope.id = $stateParams.id;
 
 })
