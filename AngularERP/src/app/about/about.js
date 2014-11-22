@@ -22,6 +22,8 @@ angular.module( 'ngBoilerplate.about', [
   $scope.dropdownDemoItems = [
     "The first choice!",
     "And anothe r choice for you.",
+    "The sda choice!",
+    "And another choice for you.",
     "but wait! A third!"
   ];
 })

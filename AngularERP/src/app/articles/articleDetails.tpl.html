@@ -1,0 +1,34 @@
+﻿
+<div ng-app="ngBoilerplate.articles" ng-controller="ArticleDetailsCtrl">
+
+    <h1 class="page-header">
+        Article Details
+        <!--<small>For the lazy and impatient.</small>-->
+    </h1>
+    <div>
+        <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-primary" ng-click="openList()"> go back to the list</button>
+  
+        </div>
+
+        <div title="Article Details">
+            <div>
+                <table width="100%" height="100%" align="center" valign="center">
+                    <tr>
+                        <td>
+                            <img src="{{article.picture}}" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h3>Id <span class="label label-default">{{article.id}}</span></h3>
+            <h3>Code <span class="label label-default">{{article.company}}</span></h3>
+            <h3>Producer <span class="label label-default">{{article.producer}}</span></h3>
+            <h3>About <span class="label label-default" word-wrap:break-word>{{article.about}}</span></h3>
+        </div>
+    </div>
+
+
+
+</div>
+

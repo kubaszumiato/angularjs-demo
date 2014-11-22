@@ -62,7 +62,7 @@ angular.module('ngBoilerplate.orders', [
             $scope.orders = data;
         });
         $scope.showOrderDetails = function(order) {
-            $state.go('details', { id: order.index, order: order }, { reload: true });
+            $state.go('details', { id: order.index}, { reload: true });
         };
     })
 
