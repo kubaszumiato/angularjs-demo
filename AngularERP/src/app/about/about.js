@@ -13,7 +13,7 @@ angular.module( 'ngBoilerplate.about', [
         templateUrl: 'about/about.tpl.html'
       }
     },
-    data:{ pageTitle: 'What is It?' }
+    data:{ pageTitle: 'Whvat is It?' }
   });
 })
 
@@ -21,7 +21,7 @@ angular.module( 'ngBoilerplate.about', [
   // This is simple a demo for UI Boostrap.
   $scope.dropdownDemoItems = [
     "The first choice!",
-    "And another choice for you.",
+    "And anothe r choice for you.",
     "but wait! A third!"
   ];
 })
