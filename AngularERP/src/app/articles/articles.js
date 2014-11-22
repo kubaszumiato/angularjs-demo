@@ -31,8 +31,11 @@ angular.module( 'ngBoilerplate.articles', [
             }
         ];
 
-        $scope.getArticles = function() {
-            return $scope.articles;
+        $scope.refreshArticles = function() {
+            articles.push({
+                "id": "54706f30e1ddb00fd58a77a3",
+                "code": "LETPRO"
+            });
         };
 
         $scope.addArticle = function (article) {
