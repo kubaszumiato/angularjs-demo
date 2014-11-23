@@ -5,12 +5,7 @@
 var myapp = angular.module('ngBoilerplate.articles', [
     'ui.router',
     'placeholders',
-<<<<<<< HEAD
-    'ui.bootstrap',
-    'infinite-scroll'
-=======
     'ui.bootstrap' 
->>>>>>> 0eb4b2d6cc35629d3306c302d63503a9113bf13c
 ]);
 
 myapp.config(function config($stateProvider) {
