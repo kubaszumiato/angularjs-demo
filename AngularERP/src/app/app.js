@@ -3,10 +3,10 @@ angular.module( 'ngBoilerplate', [
   'templates-common',
   'ngBoilerplate.home',
   'ngBoilerplate.about',
-  'ngBoilerplate.articles',  
-  'ngBoilerplate.orders', 
+  'ngBoilerplate.orders',
   'ngBoilerplate.customers',
   'ngBoilerplate.customer',
+  'ngBoilerplate.articles',  
   'ui.router'
 ])
 

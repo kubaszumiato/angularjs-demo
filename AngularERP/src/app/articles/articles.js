@@ -20,7 +20,7 @@ myapp.config(function config($stateProvider) {
             },
             data: { pageTitle: 'articles' }
         })
-        .state('details', {
+        .state('articleDetails', {
             url: '/articles/:id',
             views: {
                 "main": {
@@ -65,7 +65,7 @@ myapp.controller('ArticlesCtrl', function ArticlesCtrl($scope, ArticleService, $
             //}
         };
     $scope.getArticleDetails = function(article) {
-        $state.go('details', { id: article.id }, { reload: true });
+        $state.go('articleDetails', { id: article.id }, { reload: true });
     };
 
         $scope.refreshArticles();
