@@ -5,12 +5,7 @@
 var myapp = angular.module('ngBoilerplate.articles', [
     'ui.router',
     'placeholders',
-<<<<<<< HEAD
-    'ui.bootstrap',
-    'infinite-scroll'
-=======
-    'ui.bootstrap' 
->>>>>>> 0eb4b2d6cc35629d3306c302d63503a9113bf13c
+    'ui.bootstrap'
 ]);
 
 myapp.config(function config($stateProvider) {
@@ -25,7 +20,7 @@ myapp.config(function config($stateProvider) {
             },
             data: { pageTitle: 'articles' }
         })
-        .state('details', {
+        .state('articleDetails', {
             url: '/articles/:id',
             views: {
                 "main": {
@@ -70,7 +65,7 @@ myapp.controller('ArticlesCtrl', function ArticlesCtrl($scope, ArticleService, $
             //}
         };
     $scope.getArticleDetails = function(article) {
-        $state.go('details', { id: article.id }, { reload: true });
+        $state.go('articleDetails', { id: article.id }, { reload: true });
     };
 
         $scope.refreshArticles();
