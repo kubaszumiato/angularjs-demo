@@ -2,9 +2,11 @@ angular.module( 'ngBoilerplate', [
   'templates-app',
   'templates-common',
   'ngBoilerplate.home',
-  'ngBoilerplate.about', 
+  'ngBoilerplate.about',
   'ngBoilerplate.articles',  
   'ngBoilerplate.orders', 
+  'ngBoilerplate.customers',
+  'ngBoilerplate.customer',
   'ui.router'
 ])
 

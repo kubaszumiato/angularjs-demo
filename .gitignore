@@ -16,6 +16,9 @@ local.properties
 .settings/
 .loadpath
 
+/karma
+/vendor
+
 # External tool builders
 .externalToolBuilders/
 
