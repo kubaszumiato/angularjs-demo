@@ -6,7 +6,8 @@ angular.module( 'ngBoilerplate', [
   'ngBoilerplate.orders',
   'ngBoilerplate.customers',
   'ngBoilerplate.customer',
-  'ngBoilerplate.articles',  
+  'ngBoilerplate.articles',
+  'portalERP.invoices',
   'ui.router'
 ])
 
