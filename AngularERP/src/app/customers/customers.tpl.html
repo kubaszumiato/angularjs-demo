@@ -23,19 +23,19 @@
             <div class="col-md-4">Email</div>
             <div class="col-md-2">Age</div>
         </div>
-        <div ng-repeat="customer in customers | filter:customerFilter" class="row customer-list-item" ng-click="openDetails($index)">
+        <div ng-repeat="customer in customers | filter:customerFilter" class="row customer-list-item" ng-click="openDetails(customer.Id)">
 
             <div class="col-md-4">
 
-                <a href="#/customers/{{customer.index}}">
-                    {{customer.name}}
+                <a href="#/customers/{{customer.Id}}">
+                    {{customer.Name}}
                 </a>
 
             </div>
 
-            <!-- <div class="col-md-4">{{customer.name}}</div> -->
-            <div class="col-md-4">{{customer.email}}</div>
-            <div class="col-md-2">{{customer.age}}</div>
+            <!-- <div class="col-md-4">{{customer.Name}}</div> -->
+            <div class="col-md-4">{{customer.Email}}</div>
+            <div class="col-md-2">{{customer.Age}}</div>
             <!-- <button class="col-md-2" ng-click="openDetails($index)">See details</button> -->
         </div>
     </div>

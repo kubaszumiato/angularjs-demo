@@ -16,6 +16,12 @@ local.properties
 .settings/
 .loadpath
 
+/karma
+/vendor
+/AngularERP/node_modules
+/AngularERP/vendor
+/AngularERP/.*
+
 # External tool builders
 .externalToolBuilders/
 

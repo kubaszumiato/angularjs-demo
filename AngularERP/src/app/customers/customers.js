@@ -18,15 +18,15 @@
     });
 })
 
-.controller('CustomersController', function CustomersController($scope, $http, $state) {
+.controller('CustomersController', function customersController($scope, $http, $state) {
 
-    $http.get('assets/Customers.json').success(function (data) {
+    $http.get('http://localhost:17707/api/Customers').success(function (data) {
         $scope.customers = data;
     });
 
-    $scope.openDetails = function(index)
+    $scope.openDetails = function(id)
     {
-        $state.go("customer", {customerIndex: index});
+        $state.go("customer", {customerId: id});
     };
 })
 

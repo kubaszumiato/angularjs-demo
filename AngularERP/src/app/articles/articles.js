@@ -5,7 +5,7 @@
 var myapp = angular.module('ngBoilerplate.articles', [
     'ui.router',
     'placeholders',
-    'ui.bootstrap'
+    'ui.bootstrap' 
 ]);
 
 myapp.config(function config($stateProvider) {
