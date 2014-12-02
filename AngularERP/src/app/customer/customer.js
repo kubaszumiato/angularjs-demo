@@ -6,7 +6,7 @@
 
 .config(function config($stateProvider) {
     $stateProvider.state('customer', {
-        url: '/customers/:customerIndex',
+        url: '/customers/:customerId',
         views: {
             "main": {
                 controller: 'customerController',
@@ -19,8 +19,8 @@
 
 .controller('customerController', function customerController($scope, $stateParams, $http) {
 
-     var index = $stateParams.customerIndex;
-     $http.get('assets/Customers.json').success(function (data) {
-         $scope.customer = data[index];
+     var id = $stateParams.customerId;
+    $http.get('http://localhost:17707/api/Customers/' + id).success(function (data) {
+         $scope.customer = data;
      });
 });
