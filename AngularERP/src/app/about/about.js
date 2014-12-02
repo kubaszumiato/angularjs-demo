@@ -13,7 +13,7 @@ angular.module( 'ngBoilerplate.about', [
         templateUrl: 'about/about.tpl.html'
       }
     },
-    data:{ pageTitle: 'Whvat is It?' }
+    data:{ pageTitle: 'What is It?' }
   });
 })
 
