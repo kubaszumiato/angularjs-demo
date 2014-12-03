@@ -20,6 +20,7 @@ local.properties
 /vendor
 /AngularERP/node_modules
 /AngularERP/vendor
+/AngularERP/karma
 /AngularERP/.*
 
 # External tool builders
@@ -34,6 +35,8 @@ local.properties
 # PDT-specific
 .buildpath
 
+# Nuget
+packages.config
 
 #################
 ## Visual Studio

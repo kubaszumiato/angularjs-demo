@@ -19,7 +19,7 @@
 
 .controller('customerController', function customerController($scope, $stateParams, $http) {
 
-     var id = $stateParams.customerId;
+    var id = $stateParams.customerId;
     $http.get('http://localhost:17707/api/Customers/' + id).success(function (data) {
          $scope.customer = data;
      });
